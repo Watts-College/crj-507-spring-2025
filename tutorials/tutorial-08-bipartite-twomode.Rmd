@@ -522,7 +522,7 @@ mean.incident.deg
 
 ### What's next?
 
-Your ready for [Lab 5: Bipartite Graphs and Two-Mode Networks](../labs/lab-05-instructions.html)!
+You are ready for [Lab 5: Bipartite Graphs and Two-Mode Networks](../labs/lab-05-instructions.html)!
 
 <br>
 
@@ -530,7 +530,7 @@ ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2024/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](../issues/new) page. Thanks!
 
 <br>
 <br>

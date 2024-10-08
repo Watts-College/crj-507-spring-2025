@@ -213,7 +213,7 @@ Ok, that was a lot. Let's work our way back through the mechanics of building a 
 ### **Working with the `gplot()` function**  
 Let's take a look at some of the visualization capabilities of `gplot()`. Let's start by looking at the function's help page: `?gplot`.
 
-To see the various functionality of the function, let's work with the example of an undirected network from [Tutorial 3 - Introduction to Networks in R](https://watts-college.github.io/crj-507-spring-2024/tutorials/tutorial-03-network-data.html). 
+To see the various functionality of the function, let's work with the example of an undirected network from [Tutorial 3 - Introduction to Networks in R](https://watts-college.github.io/crj-507-spring-2025/tutorials/tutorial-03-network-data.html). 
 
 
 ```{r}
@@ -578,7 +578,7 @@ gplot( PI.net,
 
 There is nothing like an beautiful network visualization that conveys lots of information and is aesthetically pleasing. Now you know how to get there! As you have seen, there is a ton of flexibility. I would encourage you to spend some time tinkering with the various arguments for the `gplot()` function to get a feel for what it can do.
 
-You are ready to start working with your own data. If you feel comfortable with working with these data structures and plotting them, then head over and start [Lab 02 - Network Visualization](https://watts-college.github.io/crj-507-spring-2024/labs/lab-02-instructions.html). If not, that is fine. We covered a lot! Start by reviewing [Tutorial 03 - Introduction to Networks in R](https://watts-college.github.io/crj-507-spring-2024/tutorials/tutorial-03-network-data.html) as well as this tutorial again. You will be on your way to cranking out sweet plots in no time!
+You are ready to start working with your own data. If you feel comfortable with working with these data structures and plotting them, then head over and start [Lab 02 - Network Visualization](https://watts-college.github.io/crj-507-spring-2025/labs/lab-02-instructions.html). If not, that is fine. We covered a lot! Start by reviewing [Tutorial 03 - Introduction to Networks in R](https://watts-college.github.io/crj-507-spring-2025/tutorials/tutorial-03-network-data.html) as well as this tutorial again. You will be on your way to cranking out sweet plots in no time!
 
 <br>
 
@@ -586,7 +586,7 @@ ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2024/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
 
 <br>
 <br>

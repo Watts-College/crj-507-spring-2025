@@ -14,11 +14,10 @@ info:
  course_number: CRJ 507
  course_level: Graduate
  course_website: 'https://canvas.asu.edu/courses/170143'
- course_start_end_dates: January 8 - February 27, 2024
+ course_start_end_dates: January 13th - March 4th, 2025
  course_prerequisites:  
  class_meets_when:  Asynchronous  
  class_meets_where:  Online
- discussion_board_url: 'https://calendly.com/jacobtnyoung/crj-507-lab-review-session'
 
 instructor:
 -  name: Jacob T.N. Young
@@ -30,7 +29,6 @@ instructor:
    office_hours_time: Monday and Tuesday 2:30pm-3:30pm (AZ time)
    office_hours_app_url: 'https://calendly.com/jacobtnyoung/crj-507-student-meeting'
    office_hours_location: Zoom
-
 
 textbooks:
 - title: Social Network Analysis
@@ -71,7 +69,7 @@ Students will demonstrate competency in understanding, producing and communicati
 
 1. Weekly labs that provide opportunities to consolidate and apply material from the readings and tutorials
 2. Discussion topics on social networks concepts as they pertain to crime prevention
-3. a final project that integrate several skills developed through the course  
+3. A final project that integrate several skills developed through the course  
 
 Assigned work, including the final course project as well as regular, active participation in online discussion sessions (a critical part of the course learning strategy) are the tools the instructor will use to measure comprehension and skill; the course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflecting outstanding performance.  
 
@@ -103,7 +101,7 @@ The online discussions are explicitly intended to meet the objectives stated abo
 
 We will use a custom textbook for this course. Visit the [**Course Textbook**](https://jacobtnyoung.github.io/sna-textbook/) to review the materials that pertain to this course.
 
-In addition to the required reading, the instructor will supplement these with journal articles. These will be made available in the course shell.
+In addition to the required reading, the instructor will supplement these with journal articles.
 
 ## C. Course Grading System for Assigned Work & Final Projects
 
@@ -121,7 +119,7 @@ The assigned work for the term comes in the form of three elements, described be
 
 ### Weekly Labs (60%)  
 
-Each week you will receive a short lab that will help you synthesize the material from the week. **They are graded pass / fail** based upon an assessment of whether you have sincerely attempted the lab and answered over half of the questions correctly. This is designed to hold you accountable for the material, but not create anxiety about perfection.
+Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs can be **resubmitted**. You can make revisions to your lab, based on my feedback, and I will regrade it. For example, if you turn in a lab, receive a score of 7, and then revise the lab based on feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab solutions are distributed. 
 
 #### Lab Review Sessions
 

@@ -659,7 +659,7 @@ gplot(
 
 Nicely done! You now know how to calculate *degree* and *closeness* centrality in R. Feel free to give yourself a pat on the back (or a self high-five!)
 
-So now what? Why not add *betweenness* centrality to that list! This topic is explored further in the next tutorial, [Betweenness Centrality and Centralization in R](https://watts-college.github.io/crj-507-spring-2024/tutorials/tutorial-07-betweenness-centrality.html). See you there!
+So now what? Why not add *betweenness* centrality to that list! This topic is explored further in the next tutorial, [Betweenness Centrality and Centralization in R](https://watts-college.github.io/crj-507-spring-2025/tutorials/tutorial-07-betweenness-centrality.html). See you there!
 
 <br>
 
@@ -667,7 +667,7 @@ ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2024/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
 
 <br>
 <br> 

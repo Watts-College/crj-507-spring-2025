@@ -510,7 +510,7 @@ centralization( piMat, betweenness, mode="digraph" )
 
 ### What's next?
 
-Your ready for [Lab 4: Closeness/Betweenness Centrality](https://watts-college.github.io/crj-507-spring-2024/labs/lab-04-instructions.html)!
+Your ready for [Lab 4: Closeness/Betweenness Centrality](../labs/lab-04-instructions.html)!
 
 <br>
 
@@ -518,7 +518,7 @@ ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2024/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
 
 <br>
 <br>

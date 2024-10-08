@@ -533,7 +533,7 @@ net.d
 
 Nicely done! You now know how to get networks in R. We are rocking and rollin!
 
-So now what? The next step in the course is to start working with network visualization. This topic is explored further in the next tutorial, [Basics of Network Visualization](https://watts-college.github.io/crj-507-spring-2024/tutorials/tutorial-04-visualization.html). See you there!
+So now what? The next step in the course is to start working with network visualization. This topic is explored further in the next tutorial, [Basics of Network Visualization](https://watts-college.github.io/crj-507-spring-2025/tutorials/tutorial-04-visualization.html). See you there!
 
 <br>
 
@@ -541,7 +541,7 @@ ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2024/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
 
 <br>
 <br>

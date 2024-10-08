@@ -2,30 +2,30 @@
 layout: schedule
 title: Schedule
 
-base: 'https://github.com/Watts-College/crj-507-spring-2024/raw/main/'
+base: 'https://github.com/Watts-College/crj-507-spring-2025/raw/main/'
 
 canvas:
   assignment_url: 'https://canvas.asu.edu/courses/170143/assignments'
   yellowdig_url: 'https://canvas.asu.edu/courses/170143/assignments/4630885'
 
 lab-due-dates:
-  lab-01: 'TUES January 16'
-  lab-02: 'TUES January 23'
-  lab-03: 'TUES January 30'
-  lab-04: 'TUES February 6'
-  lab-05: 'TUES February 13'
-  lab-06: 'TUES February 20'
+  lab-01: 'TUES January 21'
+  lab-02: 'TUES January 28'
+  lab-03: 'TUES February 4'
+  lab-04: 'TUES February 11'
+  lab-05: 'TUES February 18'
+  lab-06: 'TUES February 25'
 
 discussion-dates:
-  topic-01: 'FRI January 12'
-  topic-02: 'FRI January 19'
-  topic-03: 'FRI January 26'
-  topic-04: 'FRI February 2'
-  topic-05: 'FRI February 9'
-  topic-06: 'FRI February 16'
+  topic-01: 'FRI January 17'
+  topic-02: 'FRI January 24'
+  topic-03: 'FRI January 31'
+  topic-04: 'FRI February 7'
+  topic-05: 'FRI February 14'
+  topic-06: 'FRI February 21'
 
 final-project:
-  due-date: 'TUESDAY February 27'
+  due-date: 'TUESDAY March 4'
 
 ---
 
@@ -303,7 +303,7 @@ This course is going to throw a lot at you, but also provide a lot of support. O
 If you find something confusing, let us know (likely others will find it confusing as well).
 
 * Schedule a Zoom call with me and screen share to walk through issues
-* Post a question to the [course discussion board](https://watts-college.github.io/crj-507-spring-2024/help/)
+* Post a question to the [course discussion board](https://watts-college.github.io/crj-507-spring-2025/help/)
 * Request a walk-through and I will provide examples and steps
 
 As a general rule of thumb, if you are stuck, need clarification about what the question is asking, want to make sure you understand a formula, or are having similar issues then the help discussion page is the easiest and quickest way to get help. If you are confused about concepts or having a hard time even formulating your question, then virtual office hours are your best option.
@@ -350,7 +350,7 @@ If all of this looks foreign to you, that is perfectly fine! By the end of the c
 
 The following checklist will help you organize and prepare for success in this course.
 
-- [ ] [Read the Syllabus](https://watts-college.github.io/crj-507-spring-2024/)
+- [ ] [Read the Syllabus](https://watts-college.github.io/crj-507-spring-2025/)
 - [ ] [Install R](https://cran.rstudio.com/) and [R Studio Desktop](https://www.rstudio.com/products/rstudio/download/)
 - [ ] [Sign-Up for a GitHub Account](https://github.com/join)
 
@@ -542,7 +542,7 @@ The following checklist will help you stay organized in your second week.
 
 ## The Challenges of Criminal Justice Records
 
-As you work through the materials this week, I want you to keep in mind some of the difficulties that arise when working with criminal justice records to construct network data.A great review of some of these issues is covered in the article [Using social network analysis to study crime: Navigating the challenges of criminal justice records](https://www.sciencedirect.com/science/article/pii/S0378873321000149?via%3Dihub) by David Bright, Russell Brewer, and Carlo Morselli. As they state in the paper, "Much like archeologists who deal with incomplete data, criminal network researchers must ‘dig’ to access relevant data, prepare the artefacts for analysis in the knowledge that such artefacts are but a sample, and engage in analysis and interpretation of such artefacts giving due consideration to the limits inherent in the artefacts under study."
+As you work through the materials this week, I want you to keep in mind some of the difficulties that arise when working with criminal justice records to construct network data.A great review of some of these issues is covered in the article [Using social network analysis to study crime: Navigating the challenges of criminal justice records](https://www.sciencedirect.com/science/article/pii/S0378873321000149?via%3Dihub) by David Bright, Russell Brewer, and Carlo Morselli. As they state in the paper, "Much like archaeologists who deal with incomplete data, criminal network researchers must ‘dig’ to access relevant data, prepare the artefacts for analysis in the knowledge that such artefacts are but a sample, and engage in analysis and interpretation of such artefacts giving due consideration to the limits inherent in the artefacts under study."
 
 For your discussion this week, think about your own experience with data and describe the extent to which you have encountered such issues as those described in the article. If you have not encountered any, think about how the topics mentioned in the article might apply to future work you do in your field. 
 

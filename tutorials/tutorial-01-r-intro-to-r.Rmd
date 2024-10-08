@@ -362,14 +362,14 @@ Ok, now open RStudio and let's take a look! Go ahead, I can wait.
 
 Ok, glad your back! Now, that you have RStudio up and running, try rerunning some of the code above. You will see that R operates within the RStudio environment. However, there are more tools available in RStudio which we will use. 
 
-These tools are explored further in the next tutorial, [Introduction to Data-Driven Documents](https://watts-college.github.io/crj-507-spring-2024/tutorials/tutorial-02-intro-to-rmarkdown.html).
+These tools are explored further in the next tutorial, [Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html).
 
 
 ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2024/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](../issues/new) page. Thanks!
 
 <br>
 <br>
