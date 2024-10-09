@@ -5,8 +5,8 @@ title: Schedule
 base: 'https://github.com/Watts-College/crj-507-spring-2025/raw/main/'
 
 canvas:
-  assignment_url: 'https://canvas.asu.edu/courses/170143/assignments'
-  yellowdig_url: 'https://canvas.asu.edu/courses/170143/assignments/4630885'
+  assignment_url: 'https://canvas.asu.edu/courses/204183/assignments'
+  yellowdig_url: 'https://canvas.asu.edu/courses/204183/assignments/4630885'
 
 lab-due-dates:
   lab-01: 'TUES January 21'

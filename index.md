@@ -13,7 +13,7 @@ info:
  course_title: Social Network Analysis
  course_number: CRJ 507
  course_level: Graduate
- course_website: 'https://canvas.asu.edu/courses/170143'
+ course_website: 'https://canvas.asu.edu/courses/204183'
  course_start_end_dates: January 13th - March 4th, 2025
  course_prerequisites:  
  class_meets_when:  Asynchronous  
@@ -169,9 +169,9 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 ## F. Course Communications and Instructor Feedback:
 
-**Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [**Canvas shell**](https://canvas.asu.edu/courses/170143).
+**Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [**Canvas shell**](https://canvas.asu.edu/courses/204183).
 
-Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-spring-2024/help/) page on this site, schedule individual office hours using the Calendly link provided above, and email the instructor directly instead of using the Canvas system.
+Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-spring-2025/help/) page on this site, schedule individual office hours using the Calendly link provided above, and email the instructor directly instead of using the Canvas system.
 
 Students should be aware that the course instructor will attempt to respond to any course-related email as quickly as possible. Students are asked to allow between 24 and 48 hours for replies to direct instructor emails, generally, as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for instructor grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
 
@@ -211,7 +211,7 @@ As students are all aware, ASU Online courses are typically offered on a seven a
 
 **Note:** The course instructor may from time to time adjust assigned readings or adjust the due dates for assignment. The basic course content approach and learning objectives will not change, but slight modifications are possible if circumstances warrant an adjustment.
 
-Visit the [**Course Schedule**](https://watts-college.github.io/crj-507-spring-2024/schedule/).
+Visit the [**Course Schedule**](https://watts-college.github.io/crj-507-spring-2025/schedule/).
 
 <br>
 <br>
