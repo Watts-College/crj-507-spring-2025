@@ -5,7 +5,7 @@ title: Syllabus
 index:
     title: Social Network Analysis
     <!--- image: data-science.png -->
-    subtitle: The objective of this course is to introduce students to Social Network Analysis and its practical application in the criminal justice system. Students will be able to understand and discuss the fundamental issues associated with social network analysis and will understand how to use software to conduct social network analysis. Upon completion of the course students will be knowledgeable about the history of social network analysis, theories applicable to social network analysis, the role of social network analysis in criminal justice agencies, strategies in social network analysis data collection and techniques associated with social network analysis. This course offers a practical, tools-based approach that is designed to build strong foundations for people that want to work as analysts. The course is analytically rigorous, but no prior programming experience is assumed. By the end of this course, you will know how to construct networks, analyze them, and create reports on networks. 
+    subtitle: The objective of this course is to introduce students to Social Network Analysis and its practical application in the criminal justice system. Students will be able to understand and discuss the fundamental issues associated with social network analysis and will understand how to use software to conduct social network analysis. This course offers a practical, tools-based approach that is designed to build strong foundations for people that want to work as analysts in criminal justice fields. The course is analytically rigorous, but no prior programming experience is assumed. By the end of this course, you will know how to construct networks, analyze them, and create reports on networks. 
 
 info:
  program_title: Online Master of Science in Crime Analysis
@@ -31,9 +31,9 @@ instructor:
    office_hours_location: Zoom
 
 textbooks:
-- title: Social Network Analysis
+- title: Social Network Analysis for Crime Analysts
   authors: Jacob T.N. Young
-  link: https://jacobtnyoung.github.io/sna-textbook/
+  link: https://jacobtnyoung.github.io/snaca-textbook/
   required: Required (but free!)
 
 ---
@@ -42,20 +42,20 @@ textbooks:
 
 ## A. Overview
 
-The objective of this course is to introduce students to *Social Network Analysis* and its practical application in the criminal justice system. Students will be able to understand and discuss the fundamental issues associated with social network analysis and will understand how to use software to conduct social network analysis. Upon completion of the course students will be knowledgeable about the history of social network analysis, theories applicable to social network analysis, the role of social network analysis in criminal justice agencies, strategies in social network analysis data collection, and techniques associated with social network analysis. This course offers a practical, tools-based approach that is designed to build strong foundations for people that want to work as analysts. The course is analytically rigorous, but no prior programming experience is assumed. By the end of this course, you will know how to construct networks, analyze them, and create reports on networks.
+The objective of this course is to introduce students to *Social Network Analysis* and its practical application in the criminal justice system. Students will be able to understand and discuss the fundamental issues associated with social network analysis and will understand how to use software to conduct social network analysis. This course offers a practical, tools-based approach that is designed to build strong foundations for people that want to work as analysts in criminal justice fields. The course is analytically rigorous, but no prior programming experience is assumed. By the end of this course, you will know how to construct networks, analyze them, and create reports on networks.
 
 ## B. Course Objectives
 
 The four main learning objectives for the course are:
 
-1. Identify the major theoretical ideas supporting network research
-2. Collect social network data
+1. Identify the major theoretical ideas embodied by network science
+2. Collect your own social network data
 3. Analyze and interpret social network data
 4. Build reports on networks using RStudio and RMarkdown
 
 ## C. Course Prerequisites:
 
-There are no prerequisites, and I do not assume any prior background in network analysis, computer programming, or statistics. Students should, however, have installed R and R Studio, and worked through a basic tutorial on R Studio. Links to these resources are all provided in the course content.
+There are no prerequisites, and I do not assume any prior background in network analysis, computer programming, or statistics. Students should, however, have installed [R](https://cran.rstudio.com/) and [RStudio](https://posit.co/download/rstudio-desktop/), and worked through a basic tutorial on [RStudio](https://posit.co/download/rstudio-desktop/). Links to these resources are all provided in the course content.
 
 # II. Assessment of Student Performance & Proficiency
 
@@ -65,13 +65,13 @@ Assessment of student performance in this course is based on indications that th
 
 ## B. Demonstrating Proficiency
 
-Students will demonstrate competency in understanding, producing and communicating results of their analyses through the following assignments:
+Students will demonstrate competency in understanding, producing, and communicating results of their analyses through the following assignments:
 
 1. Weekly labs that provide opportunities to consolidate and apply material from the readings and tutorials
-2. Discussion topics on social networks concepts as they pertain to crime prevention
+2. Discussion topics on social networks concepts as they pertain to crime and criminal justice
 3. A final project that integrate several skills developed through the course  
 
-Assigned work, including the final course project as well as regular, active participation in online discussion sessions (a critical part of the course learning strategy) are the tools the instructor will use to measure comprehension and skill; the course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflecting outstanding performance.  
+Assigned work, including the final course project as well as regular, active participation in online discussion sessions (a critical part of the course learning strategy) are the tools the instructor will use to measure comprehension and skill. The course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflecting outstanding performance.  
 
 **Note:** Students should be aware that merely completing assigned work in no way guarantees an outstanding grade in the course. To receive an outstanding course grade (using the grading scheme described below and the performance assessment approach noted above), all assigned work should completed on time with careful attention to assignment details.
 
@@ -81,13 +81,15 @@ Assigned work, including the final course project as well as regular, active par
 
 ### Incremental Progression
 
-Mastering the concepts of social network analysis as well as the data programming skills needed to conduct network analysis is like learning a language. You start by mastering basic vocabulary that is specific. Through your coursework you will become conversant in how network scholars talk about networks as well as approaches to analysis of networks. Progress might be slow at first as you work to master core concepts, integrate the building blocks into a coherent mental model of real-world problems, learn to translate technical results into clear narratives for non-technical audiences, and become comfortable with data programming skills. This is just part of the process. 
+Mastering the concepts of social network analysis as well as the data programming skills needed to conduct network analysis is like learning a language. You start by mastering basic vocabulary that is specific. Through your coursework you will become conversant in how network scholars talk about networks as well as approaches to analysis of networks. Progress might be slow at first as you work to master core concepts, integrate the building blocks into a coherent mental model of real-world problems, learn to translate technical results into clear narratives for non-technical audiences, and become comfortable with data programming skills. This is just part of the process. It sort of feels like this:
+
+![](assets/img/curve-image.png)
 
 But, over time you will find that your thought processes change as you approach network related problems differently. In fact, you might come to see a whole new set of problems as answerable through network analysis. In other words, you begin to think and speak like a social network analyst.
 
 ### Retention
 
-Similar to immersion in a language, the best way to learn the material is to be consistent in doing course work each day. The more frequently you revisit concepts and practice data programming the more you will absorb. The curriculum has been designed around this approach. Readings and tutorials are split into small units, and each unit includes questions to test your understanding of the material. Weekly labs allow you to spend some time applying the material to a specific problem. The final project at the end of the semester is designed to help you make connections between concepts and consolidate knowledge.
+Similar to immersion in a language, the best way to learn the material is to be consistent in doing course work each day. The more frequently you revisit concepts and practice using the software, the more you will absorb. The curriculum has been designed around this approach. Readings and tutorials are split into small units, and each unit includes questions to test your understanding of the material. Weekly labs allow you to spend some time applying the material to a specific problem. The final project at the end of the semester is designed to help you make connections between concepts and consolidate knowledge.
 
 You will be much better off spending a small amount of time each day on the material instead of trying to cram everything into a couple of days a week.
 
@@ -99,7 +101,7 @@ The online discussions are explicitly intended to meet the objectives stated abo
 
 ## B. Assigned Reading Materials
 
-We will use a custom textbook for this course. Visit the [**Course Textbook**](https://jacobtnyoung.github.io/sna-textbook/) to review the materials that pertain to this course.
+We will use a custom textbook for this course. The [**Social Network Analysis for Crime Analysts**](https://jacobtnyoung.github.io/snaca-textbook/) was designed specifically for this course. Visit the [**Course Textbook**](https://jacobtnyoung.github.io/snaca-textbook/) to review the materials that pertain to this course.
 
 In addition to the required reading, the instructor will supplement these with journal articles.
 
@@ -119,11 +121,11 @@ The assigned work for the term comes in the form of three elements, described be
 
 ### Weekly Labs (60%)  
 
-Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs can be **resubmitted**. You can make revisions to your lab, based on my feedback, and I will regrade it. For example, if you turn in a lab, receive a score of 7, and then revise the lab based on feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab solutions are distributed. 
+Each week you will receive a short lab that will help you synthesize the material from the week. Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading. I will review your lab after it is turned in and provide feedback. *NOTE*: Weekly labs <u>can</u> be **resubmitted**. You can make revisions to your lab, based on my feedback, and I will regrade it. For example, if you turn in a lab, receive a score of 7, and then revise the lab based on feedback, you could earn a 10. **Re**-submissions with revisions will be accepted up to the day that the lab solutions are distributed. 
 
 #### Lab Review Sessions
 
-For each lab, there will be a review session after the assignment is due. In these sessions I will go over the solutions in the lab. This provides an opportunity for you to ask questions as I work through the code for the lab. NOTE: Since we will be discussing the solutions for the labs, you will not be able to turn in a lab assignment after the review session. I understand that things come up that interfere with assignments, but the best way to prevent this situation is to start early on the assignment. This is why I will hold the review sessions after the labs are due: so that we can discuss the code and you can start working on the next assignment as soon as possible.
+For each lab, there will be a review session after the assignment is due. In these sessions I will go over the solutions in the lab. This provides an opportunity for you to ask questions as I work through the code for the lab. Since we will be discussing the solutions for the labs, you will not be able to turn in a lab assignment after the review session. I understand that things come up that interfere with assignments, but the best way to prevent this situation is to start early on the assignment. This is why I will hold the review sessions after the labs are due: so that we can discuss the code and you can start working on the next assignment as soon as possible.
 
 Use the following link to sign-up for the [Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session).
 
@@ -138,13 +140,9 @@ YellowDig discussion topics are used to introduce you to the broad area of socia
 
 These points automatically update on *Canvas*. The total grade is cumulative, reflecting points contributing to 100%. **A maximum of 20 points can be earned in each week's discussions.**  
 
-*Earning an "Instructor Badge" nets an additional 5 points.*
-
 ### Final Project (30%)  
 
-This course will close with a final project. The final project will involve a report that draws on all of the material you have learned in the course.
-
-The final project will use all of the information you have learned in this course to create a report on a network. For the final project, you will use data from the Phoenix Open Data Portal. Specifically, you will use co-arrest data. These data represent incidents where individuals were arrested together. For the final project, imagine that you work for a police department and your supervisor has asked you to create a report on co-offending networks. 
+This course will close with a final project. The final project will use all of the information you have learned in this course to create a report on a network. For the final project, you will use data from the [Phoenix Open Data Portal](https://www.phoenixopendata.com/). For the final project you will use co-arrest data reported in Phoenix. These data represent incidents where individuals were arrested together. You will be asked to imagine that you work for a police department and your supervisor has asked you to create a report on co-offending networks. 
 
 The following criteria, description, and corresponding points are used to evaluate the project (30 points total):
 
@@ -171,11 +169,11 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 **Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [**Canvas shell**](https://canvas.asu.edu/courses/204183).
 
-Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-spring-2025/help/) page on this site, schedule individual office hours using the Calendly link provided above, and email the instructor directly instead of using the Canvas system.
+Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-spring-2025/help/) page on this site, schedule individual office hours using the [Calendly link](https://calendly.com/jacobtnyoung/crj-507-student-meeting), and [email me](mailto:CRJ507@asu.com) directly instead of using the Canvas system.
 
-Students should be aware that the course instructor will attempt to respond to any course-related email as quickly as possible. Students are asked to allow between 24 and 48 hours for replies to direct instructor emails, generally, as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for instructor grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
+Be aware that I will attempt to respond to any course-related email as quickly as possible. I ask that you allow between 24 and 48 hours as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
 
-ASU email is the official means of communication among students, faculty, and staff. Students bear the responsibility of missed messages and should check their ASU-assigned email regularly. All correspondence will be sent to your ASU email account. Please ensure Canvas notifications are being sent to your email.
+ASU email is the official means of communication among students, faculty, and staff. You bear the responsibility of missed messages and should check your ASU-assigned email regularly. All correspondence will be sent to your ASU email account. Please ensure Canvas notifications are being sent to your email.
 
 ## G. Student Conduct: Expectation of Professional Behavior
 

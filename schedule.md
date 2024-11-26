@@ -6,7 +6,7 @@ base: 'https://github.com/Watts-College/crj-507-spring-2025/raw/main/'
 
 canvas:
   assignment_url: 'https://canvas.asu.edu/courses/204183/assignments'
-  yellowdig_url: 'https://canvas.asu.edu/courses/204183/assignments/4630885'
+  yellowdig_url: 'https://canvas.asu.edu/courses/204183/assignments/5662983'
 
 lab-due-dates:
   lab-01: 'TUES January 21'
@@ -58,7 +58,7 @@ Hi there! My name is [Jacob Young](https://jacobtnyoung.github.io/) and I will b
 
 Network science is an approach to science that views the world as being composed of systems of actors connected through relational ties (i.e. a network). Network science takes these relational structures as the primary domain of interest. In so doing, research questions take the following forms: How does the network matter? What effects the network? Network analysis is the set of tools used to study relational variables. A set of methods for systematically understanding and identifying connections among actors. This course will introduce you to these tools and their application to problems in the the field of criminology and criminal justice.
 
-In this course you will learn how to use R and R Studio to import, analyze, and report on social networks.
+In this course you will learn how to use R and RStudio to import, analyze, and report on social networks.
 
 ## Introducing R
 
@@ -72,25 +72,11 @@ In this course we cover the foundations of social network analysis and show how 
 
 **RStudio** helps you manage projects by organizing files, scripts, packages and output. **Markdown** is a simple formatting convention that allows you to create publication-quality documents. **R Markdown** is a specific version of Markdown that allows you to combine text and code to create data-driven documents.
 
-The following resources will help you get a better understanding of these tools.
-
-* [Chapter 1: Core R](http://ds4ps.org/dp4ss-textbook/ch-010-core-r.html): Learning the basics of R
-
-* [Chapter 2: RStudio](http://ds4ps.org/dp4ss-textbook/ch-020-rstudio.html): RStudio's functionality and features
-
-* [Data-Driven Docs](http://ds4ps.org/dp4ss-textbook/ch-030-data-driven-docs.html): How R Markdown is used for interactive and dynamic reports
-
-* [A Guide to Markdown](http://ds4ps.org/dp4ss-textbook/ch-031-markdown.html): How to use Markdown - the easy-to-learn formatting syntax
-
 <br>
 
 ## R Markdown
 
-You will get plenty of practice with these tools and submit your labs as knitted R Markdown (`.RMD`) files.
-
-* Learn more about R Markdown here: [Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
-
-View R Markdown in action in the below image:
+You will get plenty of practice with these tools and submit your labs as knitted R Markdown (`.RMD`) files. You can learn more about R Markdown here: [Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html). But to give you a glimps, you can view R Markdown in action in the below image:
 
 <br>
 
@@ -154,15 +140,6 @@ Visit the [video](https://youtu.be/xgPwDlAtuNI) to navigate using timestamps in 
 
 Markdown is a "lightweight", easy-to-learn syntax that allows you to format language with boldface, italicization, bullet points, and more, even when there's no "rich content editor" menu available.  
 
-Websites and applications that support Markdown may surprise you, including:
-
-* Reddit
-* GitHub
-* RStudio
-* OpenStreetMap
-* Stack Exchange
-* Microsoft Teams
-
 <br>
 
 #### Markdown Basics
@@ -196,6 +173,47 @@ Visit the [video](https://youtu.be/oXgFrUq6btQ) to navigate using timestamps in 
 * (**07:04**) Creating List Sub-Items
 * (**08:23**) Formatting Hyperlinks
 * (**09:38**) Conclusion
+
+<br>
+<br>
+
+## What Is R Markdown?
+
+R Markdown is one of the most powerful tools you'll learn. It allows the synthesis of human language and code to perform processing and analysis tasks while explaining them to broad audiences.
+
+<br>
+
+#### R Markdown: An Introduction
+
+The following video provides a tutorial and demonstration of R Markdown.
+
+* Locating Lab Assignment Templates
+* Creating New R Markdown Files
+* The Benefits of R Markdown
+* Customizing & Compiling
+* Completing Assignments
+
+<br>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/ALwHaNzQub0??rel=0&modestbranding=1&autohide=1&showinfo=0"
+frameborder="0" allow="accelerometer;
+autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+Visit the [video](https://youtu.be/ALwHaNzQub0) to navigate using timestamps in the description or bookmarks in the progress bar.
+
+* (**00:00**) Introduction & Contents
+* (**00:22**) Locating R Markdown Templates
+* (**01:20**) Creating a New R Markdown File
+* (**02:36**) Machine- & Human-Readable Code
+* (**05:41**) Creating & Formatting from Scratch
+* (**06:19**) Creating Code Chunks
+* (**07:37**) Code Chunk Options
+* (**09:55**) Lab Templates
+* (**12:25**) Discussion
 
 <br>
 <br>
@@ -242,54 +260,13 @@ Visit the [video](https://youtu.be/cHBFusiPyLw) to navigate using timestamps in 
 <br>
 <br>
 
-## What Is R Markdown?
-
-R Markdown is one of the most powerful tools you'll learn. It allows the synthesis of human language and code to perform processing and analysis tasks while explaining them to broad audiences.
-
-<br>
-
-#### R Markdown: An Introduction
-
-The following video provides a tutorial and demonstration of R Markdown.
-
-* Locating Lab Assignment Templates
-* Creating New R Markdown Files
-* The Benefits of R Markdown
-* Customizing & Compiling
-* Completing Assignments
-
-<br>
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/ALwHaNzQub0??rel=0&modestbranding=1&autohide=1&showinfo=0"
-frameborder="0" allow="accelerometer;
-autoplay; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe>
-
-<br>
-
-Visit the [video](https://youtu.be/ALwHaNzQub0) to navigate using timestamps in the description or bookmarks in the progress bar.
-
-* (**00:00**) Introduction & Contents
-* (**00:22**) Locating R Markdown Templates
-* (**01:20**) Creating a New R Markdown File
-* (**02:36**) Machine- & Human-Readable Code
-* (**05:41**) Creating & Formatting from Scratch
-* (**06:19**) Creating Code Chunks
-* (**07:37**) Code Chunk Options
-* (**09:55**) Lab Templates
-* (**12:25**) Discussion
-
-<br>
-<br>
-
 *** { @unit = "", @title = "Getting Help", @reading, @foldout  }
 
 ## Understand Your Resources
 
 Social network analysis is a very social endeavor and real-world analytics projects are almost always collaborative.
 
-This course is designed to be interactive, and a lot of learning occurs by practicing the technical jargon from the field and learning how to talk about data and models.
+This course is designed to be interactive, and a lot of learning occurs by practicing the technical jargon from the field and learning how to talk about network data and tools for analysis.
 
 Learning how to seek help and use discussion boards will accelerate learning and facilitate collaboration. Social coding tools like GitHub use these features extensively.
 
@@ -300,9 +277,9 @@ This course is going to throw a lot at you, but also provide a lot of support. O
 
 ### Troubleshooting & Clarification
 
-If you find something confusing, let us know (likely others will find it confusing as well).
+If you find something confusing, let me know (likely others will find it confusing as well).
 
-* Schedule a Zoom call with me and screen share to walk through issues
+* Schedule a virtual [office hours session](https://calendly.com/jacobtnyoung/crj-507-student-meeting) with me and screen share to walk through issues
 * Post a question to the [course discussion board](https://watts-college.github.io/crj-507-spring-2025/help/)
 * Request a walk-through and I will provide examples and steps
 
@@ -312,7 +289,7 @@ As a general rule of thumb, if you are stuck, need clarification about what the 
 
 ### The Benefits of GitHub Issues
 
-Note that the discussion board is hosted by the GitHub issues feature. It is a great forum because:
+Note that the help board is hosted by the GitHub issues feature. It is a great forum because:
 
 * You can format code and math using standard markdown syntax
 * You can cut and paste images directly into the message
@@ -385,9 +362,21 @@ Once you have completed this section you will be able to answer the following qu
 * What is R and and RStudio and how do I use these programs?
 * What are "data-driven documents" and how do I use them for this course?
 
+## Assigned Reading
+
+Required reading for this unit includes:
+
+* Textbook Chapters
+    * [Introduction to Social Network Analysis for Crime Analysts](https://jacobtnyoung.github.io/snaca-textbook/snaca-introduction.html)
+    * [Network Theory and Theory of Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-theory.html)
+    * [Network Data Collection](https://jacobtnyoung.github.io/snaca-textbook/snaca-methods.html) 
+* Software Tutorials
+    * [Tutorial 1 - Getting Started with R](../tutorials/tutorial-01-r-intro-to-r.html)
+    * [Tutorial 2 - Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html)
+
 ## Lab Assignment
 
-In this lab you will provide you the opportunity to start thinking about networks and get your "feet wet" in social network analysis. For the first lab, you will construct several networks of your own that you will work with it throughout the course. 
+In this lab you will provide you the opportunity to start thinking about networks and get your "feet wet" in social network analysis. For the first lab, you will construct several networks of your own that you will work with throughout the course. 
 
 *** { @unit = "", @title = "Readings", @reading, @foldout  }
 
@@ -397,9 +386,13 @@ In this lab you will provide you the opportunity to start thinking about network
 
 Required reading for this unit includes:
 
-* [Chapter 1: Introduction to Social Network Analysis](https://jacobtnyoung.github.io/sna-textbook/ch-01-intro-to-sna.html)
-* [Tutorial 1 - Getting Started with R](../tutorials/tutorial-01-r-intro-to-r.html)
-* [Tutorial 2 - Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html)
+* Textbook Chapters
+    * [Introduction to Social Network Analysis for Crime Analysts](https://jacobtnyoung.github.io/snaca-textbook/snaca-introduction.html)
+    * [Network Theory and Theory of Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-theory.html)
+    * [Network Data Collection](https://jacobtnyoung.github.io/snaca-textbook/snaca-methods.html) 
+* Software Tutorials
+    * [Tutorial 1 - Getting Started with R](../tutorials/tutorial-01-r-intro-to-r.html)
+    * [Tutorial 2 - Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html)
 
 <br>
 <br>
@@ -410,8 +403,8 @@ Required reading for this unit includes:
 
 The following checklist will help you stay organized in your first week.
 
-- [ ] Complete Assigned Readings: [Chapter 1: Introduction to Social Network Analysis](https://jacobtnyoung.github.io/sna-textbook/ch-01-intro-to-sna.html),
-[Tutorial 1 - Getting Started with R](../tutorials/tutorial-01-r-intro-to-r.html), and [Tutorial 2 - Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html)
+- [ ] Complete Assigned Textbook Chapters: [Introduction to Social Network Analysis for Crime Analysts](https://jacobtnyoung.github.io/snaca-textbook/snaca-introduction.html), [Network Theory and Theory of Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-theory.html), and [Network Data Collection](https://jacobtnyoung.github.io/snaca-textbook/snaca-methods.html)
+- [ ] Complete Assigned Tutorials: [Tutorial 1 - Getting Started with R](../tutorials/tutorial-01-r-intro-to-r.html) and [Tutorial 2 - Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html)
 - [ ] Post & Exchange on Discussion Topic, Maximum 20 Points (See Below)
 - [ ] Complete & Submit [Lab 1](../labs/lab-01-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Session](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -448,7 +441,7 @@ You can earn up to 20 points a week, and points reset on Fridays. You need to ea
 
 ## Lab 1 - Introduction to Network Analysis
 
-In this lab you will provide you the opportunity to start thinking about networks and get your "feet wet" in social network analysis. For the first lab, you will construct several networks of your own that you will work with it throughout the course. 
+This lab you will provide you the opportunity to start thinking about networks and get your "feet wet" in social network analysis. For the first lab, you will construct several networks of your own that you will work with throughout the course. 
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-01-instructions.html')">LAB 1 Instructions</a>
 
@@ -471,7 +464,7 @@ In this lab you will provide you the opportunity to start thinking about network
 -->
 
 
-** Week 2 - Introduction to R and Social Network Data in R
+** Week 2 - Social Network Data Structures, Description, and R
 
 <br>
 <br>
@@ -482,23 +475,27 @@ In this lab you will provide you the opportunity to start thinking about network
 
 ## Description
 
-This section will focus on how we represent network data as matrices. We will also focus on creating networks in R as well has how we visualize networks. 
+This section will focus on how we represent network data as matrices. We will also cover some basics of how to describe a network. Finally, We will also examine how we can create networks in R as well has how we visualize networks. 
 
 ## Learning Objectives
 
 Once you have completed this section you will be able to:
 * Represent networks using graphs and graph notation
 * Represent undirected and directed networks using matrices
+* Describe four properties of a social network
 * Build network data structures in R
 * Plot network data in R
 
 ## Assigned Reading
 
-Required:
-
-* [Chapter 4: Network Data Structures](https://jacobtnyoung.github.io/sna-textbook/ch-04-net-data-structures.html)
-* [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html)
-* [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
+Required reading for this unit includes:
+  
+* Textbook Chapters
+    * [Network Data Structures](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-data-structures.html)
+    * [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html)
+* Software Tutorials
+    * [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html)
+    * [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
 
 ## Lab Assignment
 
@@ -515,9 +512,12 @@ Lab 2 will build off your work in Lab 1 by having you reconstruct your network i
 
 Required:
 
-* [Chapter 4: Network Data Structures](https://jacobtnyoung.github.io/sna-textbook/ch-04-net-data-structures.html)
-* [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html)
-* [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
+* Textbook Chapters
+    * [Network Data Structures](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-data-structures.html)
+    * [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html)
+* Software Tutorials
+    * [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html)
+    * [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
 
 <br>
 <br>
@@ -528,8 +528,8 @@ Required:
 
 The following checklist will help you stay organized in your second week.
 
-- [ ] Complete Assigned Readings: [Chapter 4: Network Data Structures](https://jacobtnyoung.github.io/sna-textbook/ch-04-net-data-structures.html),  
-[Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html) and [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
+- [ ] Complete Assigned Textbook Chapters: [Network Data Structures](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-data-structures.html) and [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html)
+- [ ] Complete Assigned Tutorials: [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html) and [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 2](../labs/lab-02-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -599,7 +599,7 @@ This lab has a template. Click to download the lab template. Modify the template
 
 ## Description
 
-How do we know whether a node is important in a network? How can we compare the structure of different networks? These are key questions in network analysis and this week we will start to think about how we describe networks. One of the most popular concepts in network analysis is *centrality*. That is, important nodes are those who are central. Also, we can compare networks by examining how they differ (or are similar) based on the distribution of centrality scores. This section introduces the concept of centrality, focusing specifically on **degree centrality**. Next week we will shift to two alternative measures of centrality, **closeness** and **betweenness**. 
+How do we know whether a node is important in a network? How can we compare the structure of different networks? These are key questions in network analysis and this week we will start to think about how we describe networks. One of the most popular concepts for accomplishing these tasks in network analysis is *centrality*. That is, important nodes are those who are central. Also, we can compare networks by examining how they differ (or are similar) based on the distribution of centrality scores. This week introduces the concept of centrality, focusing specifically on **degree centrality**. Next week we will shift to two alternative measures of centrality, **closeness** and **betweenness**. 
 
 ## Learning Objectives
 
@@ -610,10 +610,12 @@ Once you have completed this section you will be able to:
 
 ## Assigned Reading
 
-Required:
-
-* [Chapter 5: Degree Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-05-centrality-degree.html)
-* [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
+Required reading for this unit includes:
+  
+* Textbook Chapters
+    * [Degree Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html)
+* Software Tutorials
+    * [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
 
 ## Lab Assignment
 
@@ -635,8 +637,10 @@ You will use data from two sources:
 
 Required:
 
-* [Chapter 5: Degree Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-05-centrality-degree.html)
-* [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
+* Textbook Chapters
+    * [Degree Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html)
+* Software Tutorials
+    * [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
 
 <br>
 
@@ -646,7 +650,8 @@ Required:
 
 The following checklist will help you stay organized in your third week.
 
-- [ ] Complete Assigned Readings: [Chapter 5: Degree Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-05-centrality-degree.html) and [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
+- [ ] Complete Assigned Textbook Chapters: [Degree Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html)
+- [ ] Complete Assigned Tutorials: [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 3](../labs/lab-03-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -726,10 +731,14 @@ Once you have completed this section you will be able to:
 
 ## Assigned Reading
 
-* [Chapter 6: Closeness Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-06-centrality-closeness.html)
-* [Chapter 7: Betweenness Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-07-centrality-betweenness.html)
-* [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html)
-* [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
+Required reading for this unit includes:
+  
+* Textbook Chapters
+    * [Closeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-closeness.html)
+    * [Betweenness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-betweenness.html)
+* Software Tutorials
+    * [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html)
+    * [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
 
 <br>
 
@@ -748,10 +757,12 @@ In Lab 4 we will focus on familiarizing yourself with calculating closeness cent
 
 Required:
 
-* [Chapter 6: Closeness Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-06-centrality-closeness.html)
-* [Chapter 7: Betweenness Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-07-centrality-betweenness.html)
-* [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html)
-* [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
+* Textbook Chapters
+    * [Closeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-closeness.html)
+    * [Betweenness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-betweenness.html)
+* Software Tutorials
+    * [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html)
+    * [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
 
 <br>
 
@@ -761,7 +772,9 @@ Required:
 
 The following checklist will help you stay organized in your fourth week.
 
-- [ ] Complete Assigned Readings: [Chapter 6: Closeness Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-06-centrality-closeness.html), [Chapter 7: Betweenness Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-07-centrality-betweenness.html), [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html), [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
+
+- [ ] Complete Assigned Textbook Chapters: [Closeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-closeness.html) and [Betweenness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-betweenness.html)
+- [ ] Complete Assigned Tutorials: [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html) and [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 4](../labs/lab-04-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -779,7 +792,6 @@ The following checklist will help you stay organized in your fourth week.
 In criminology and criminal justice, much attention is focused on disrupting networks. That is, trying to disconnect a network so that it is less functional. For discussion this week, I would like you to read the paper [Disrupting resilient criminal networks through data analysis: The case of Sicilian Mafia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236476) by Lucia Cavallaro and colleagues.  
 
 How does betweenness centrality operate as an intervention procedure in their study? What might the interventions look like if one were to use degree centrality or closeness centrality instead? Would they differ from the betweenness centrality intervention?
-
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">YELLOWDIG</a>
 
@@ -839,8 +851,12 @@ By the end of this unit you will be able to:
 
 ## Assigned Reading
 
-* [Chapter 10: Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/sna-textbook/ch-10-bipartite-graphs.html)
-* [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
+Required reading for this unit includes:
+  
+* Textbook Chapters
+    * [Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-bipartite.html)
+* Software Tutorials
+    * [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
 
 <br>
 
@@ -863,8 +879,10 @@ Second, you will use the Philippine Kidnappings Data which is a collection of re
 
 Required:
 
-* [Chapter 10: Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/sna-textbook/ch-10-bipartite-graphs.html)
-* [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
+* Textbook Chapters
+    * [Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-bipartite.html)
+* Software Tutorials
+    * [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
 
 <br>
 <br>
@@ -875,7 +893,8 @@ Required:
 
 The following checklist will help you stay organized in your fifth week.
 
-- [ ] [Chapter 10: Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/sna-textbook/ch-10-bipartite-graphs.html) and [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
+- [ ] Complete Assigned Textbook Chapters: [Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-bipartite.html)
+- [ ] Complete Assigned Tutorials: [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 5](../labs/lab-05-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -956,8 +975,12 @@ By the end of this unit you will be able to:
 
 ## Assigned Reading
 
-* [Chapter 11: Projection](https://jacobtnyoung.github.io/sna-textbook/ch-11-projection.html)
-* [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
+Required reading for this unit includes:
+  
+* Textbook Chapters
+    * [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html)
+* Software Tutorials
+    * [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
 
 <br>
 
@@ -974,8 +997,12 @@ Lab 6 will serve to familiarize yourself with projecting bipartite graphs to uni
 
 ## Assigned Reading
 
-* [Chapter 11: Projection](https://jacobtnyoung.github.io/sna-textbook/ch-11-projection.html)
-* [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
+Required: 
+
+* Textbook Chapters
+    * [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html)
+* Software Tutorials
+    * [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
 
 <br>
 
@@ -985,7 +1012,8 @@ Lab 6 will serve to familiarize yourself with projecting bipartite graphs to uni
 
 The following checklist will help you stay organized in your sixth week.
 
-- [ ] Complete Assigned Readings: [Chapter 11: Projection](https://jacobtnyoung.github.io/sna-textbook/ch-11-projection.html) and [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
+- [ ] Complete Assigned Textbook Chapters: [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html)
+- [ ] Complete Assigned Tutorials: [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 6](../labs/lab-06-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
