@@ -83,7 +83,13 @@ Assigned work, including the final course project as well as regular, active par
 
 Mastering the concepts of social network analysis as well as the data programming skills needed to conduct network analysis is like learning a language. You start by mastering basic vocabulary that is specific. Through your coursework you will become conversant in how network scholars talk about networks as well as approaches to analysis of networks. Progress might be slow at first as you work to master core concepts, integrate the building blocks into a coherent mental model of real-world problems, learn to translate technical results into clear narratives for non-technical audiences, and become comfortable with data programming skills. This is just part of the process. It sort of feels like this:
 
-![](assets/img/curve-image.png)
+<br>
+
+<div style="text-align: center;">
+  <img src="assets/img/curve-image.png" alt="Curve Image" width="300">
+</div>
+
+<br>
 
 But, over time you will find that your thought processes change as you approach network related problems differently. In fact, you might come to see a whole new set of problems as answerable through network analysis. In other words, you begin to think and speak like a social network analyst.
 
