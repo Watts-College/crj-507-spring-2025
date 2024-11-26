@@ -29,13 +29,13 @@ header:
 - title: Course Schedule
   url: schedule/
 - title: Textbook
-  url: https://jacobtnyoung.github.io/sna-textbook/
+  url: https://jacobtnyoung.github.io/snaca-textbook/
 - title: Resources
   url: resources/
-# - title: Yellowdig
-#   url: https://yellowdig.app/n/asu-online/community/6529c8c6-91a4-3875-b0e1-3e74f0d3eff5
-# - title: Canvas
-#  url: https://canvas.asu.edu/courses/170143
+- title: Yellowdig
+  url: https://yellowdig.app/n/asu-online/community/67460897-1b44-2242-9de5-06aab4beaaf3
+- title: Canvas
+  url: https://canvas.asu.edu/courses/204183
 - title: Get Help
   url: help/
 
