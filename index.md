@@ -36,6 +36,11 @@ textbooks:
   link: https://jacobtnyoung.github.io/snaca-textbook/
   required: Required (but free!)
 
+- title: Social Network Analysis for Crime Analysts Using R
+  authors: Jacob T.N. Young
+  link: https://jacobtnyoung.github.io/snaca-r/
+  required: Required (but also free!)
+
 ---
 
 # I. Course Description, Goal, & Learning Objectives
@@ -107,7 +112,7 @@ The online discussions are explicitly intended to meet the objectives stated abo
 
 ## B. Assigned Reading Materials
 
-We will use a custom textbook for this course. The [**Social Network Analysis for Crime Analysts**](https://jacobtnyoung.github.io/snaca-textbook/) was designed specifically for this course. Visit the [**Course Textbook**](https://jacobtnyoung.github.io/snaca-textbook/) to review the materials that pertain to this course.
+We will use two custom textbooks for this course. First, [**Social Network Analysis for Crime Analysts**](https://jacobtnyoung.github.io/snaca-textbook/) was designed specifically for crime analysts seeking to learn the mechanics of social network analysis. Second, [**Social Network Analysis for Crime Analysts using R**](https://jacobtnyoung.github.io/snaca-r/) is a companion textbook that provides tutorials for conducting social network analysis in R.
 
 In addition to the required reading, the instructor will supplement these with journal articles.
 

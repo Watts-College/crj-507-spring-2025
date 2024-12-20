@@ -371,8 +371,8 @@ Required reading for this unit includes:
     * [Network Theory and Theory of Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-theory.html)
     * [Network Data Collection](https://jacobtnyoung.github.io/snaca-textbook/snaca-methods.html) 
 * Software Tutorials
-    * [Tutorial 1 - Getting Started with R](../tutorials/tutorial-01-r-intro-to-r.html)
-    * [Tutorial 2 - Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html)
+    * [Getting Started with R](https://jacobtnyoung.github.io/snaca-r/snaca-r-intro-to-r.html)
+    * [Creating Data-Driven Documents using RMarkdown](https://jacobtnyoung.github.io/snaca-r/snaca-r-rmarkdown.html)
 
 ## Lab Assignment
 
@@ -391,8 +391,8 @@ Required reading for this unit includes:
     * [Network Theory and Theory of Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-theory.html)
     * [Network Data Collection](https://jacobtnyoung.github.io/snaca-textbook/snaca-methods.html) 
 * Software Tutorials
-    * [Tutorial 1 - Getting Started with R](../tutorials/tutorial-01-r-intro-to-r.html)
-    * [Tutorial 2 - Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html)
+    * [Getting Started with R](https://jacobtnyoung.github.io/snaca-r/snaca-r-intro-to-r.html)
+    * [Creating Data-Driven Documents using RMarkdown](https://jacobtnyoung.github.io/snaca-r/snaca-r-rmarkdown.html)
 
 <br>
 <br>
@@ -404,7 +404,7 @@ Required reading for this unit includes:
 The following checklist will help you stay organized in your first week.
 
 - [ ] Complete Assigned Textbook Chapters: [Introduction to Social Network Analysis for Crime Analysts](https://jacobtnyoung.github.io/snaca-textbook/snaca-introduction.html), [Network Theory and Theory of Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-theory.html), and [Network Data Collection](https://jacobtnyoung.github.io/snaca-textbook/snaca-methods.html)
-- [ ] Complete Assigned Tutorials: [Tutorial 1 - Getting Started with R](../tutorials/tutorial-01-r-intro-to-r.html) and [Tutorial 2 - Introduction to Data-Driven Documents](../tutorials/tutorial-02-intro-to-rmarkdown.html)
+- [ ] Complete Assigned Software Tutorials: [Getting Started with R](https://jacobtnyoung.github.io/snaca-r/snaca-r-intro-to-r.html) and [Creating Data-Driven Documents using RMarkdown](https://jacobtnyoung.github.io/snaca-r/snaca-r-rmarkdown.html)
 - [ ] Post & Exchange on Discussion Topic, Maximum 20 Points (See Below)
 - [ ] Complete & Submit [Lab 1](../labs/lab-01-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Session](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -494,8 +494,8 @@ Required reading for this unit includes:
     * [Network Data Structures](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-data-structures.html)
     * [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html)
 * Software Tutorials
-    * [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html)
-    * [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
+    * [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html)
+    * [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html)
 
 ## Lab Assignment
 
@@ -516,8 +516,8 @@ Required:
     * [Network Data Structures](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-data-structures.html)
     * [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html)
 * Software Tutorials
-    * [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html)
-    * [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
+    * [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html)
+    * [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html)
 
 <br>
 <br>
@@ -529,7 +529,7 @@ Required:
 The following checklist will help you stay organized in your second week.
 
 - [ ] Complete Assigned Textbook Chapters: [Network Data Structures](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-data-structures.html) and [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html)
-- [ ] Complete Assigned Tutorials: [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html) and [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html)
+- [ ] Complete Assigned Software Tutorials: [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html) and [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 2](../labs/lab-02-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -615,7 +615,7 @@ Required reading for this unit includes:
 * Textbook Chapters
     * [Degree Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html)
 * Software Tutorials
-    * [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
+    * [Degree Centrality](https://jacobtnyoung.github.io/snaca-r/snaca-r-degree-centrality.html)
 
 ## Lab Assignment
 
@@ -640,7 +640,7 @@ Required:
 * Textbook Chapters
     * [Degree Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html)
 * Software Tutorials
-    * [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
+    * [Degree Centrality](https://jacobtnyoung.github.io/snaca-r/snaca-r-degree-centrality.html)
 
 <br>
 
@@ -650,8 +650,8 @@ Required:
 
 The following checklist will help you stay organized in your third week.
 
-- [ ] Complete Assigned Textbook Chapters: [Degree Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html)
-- [ ] Complete Assigned Tutorials: [Tutorial 5 - Degree Centrality and Centralization in R](../tutorials/tutorial-05-degree-centrality.html)
+- [ ] Complete Assigned Textbook Chapter: [Degree Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html)
+- [ ] Complete Assigned Software Tutorial: [Degree Centrality](https://jacobtnyoung.github.io/snaca-r/snaca-r-degree-centrality.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 3](../labs/lab-03-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -737,8 +737,8 @@ Required reading for this unit includes:
     * [Closeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-closeness.html)
     * [Betweenness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-betweenness.html)
 * Software Tutorials
-    * [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html)
-    * [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
+    * [Closeness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-closeness-centrality.html)
+    * [Betweenness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-betweenness-centrality.html)
 
 <br>
 
@@ -761,8 +761,8 @@ Required:
     * [Closeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-closeness.html)
     * [Betweenness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-betweenness.html)
 * Software Tutorials
-    * [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html)
-    * [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
+    * [Closeness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-closeness-centrality.html)
+    * [Betweenness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-betweenness-centrality.html)
 
 <br>
 
@@ -774,7 +774,7 @@ The following checklist will help you stay organized in your fourth week.
 
 
 - [ ] Complete Assigned Textbook Chapters: [Closeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-closeness.html) and [Betweenness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-betweenness.html)
-- [ ] Complete Assigned Tutorials: [Tutorial 6 - Closeness Centrality and Centralization in R](../tutorials/tutorial-06-closeness-centrality.html) and [Tutorial 7 - Betweenness Centrality and Centralization in R](../tutorials/tutorial-07-betweenness-centrality.html)
+- [ ] Complete Assigned Software Tutorials: [Closeness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-closeness-centrality.html) and [Betweenness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-betweenness-centrality.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 4](../labs/lab-04-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -856,7 +856,7 @@ Required reading for this unit includes:
 * Textbook Chapters
     * [Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-bipartite.html)
 * Software Tutorials
-    * [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
+    * [Bipartite Graphs & Two-Mode Networks](https://jacobtnyoung.github.io/snaca-r/snaca-r-bipartite.html)
 
 <br>
 
@@ -882,7 +882,7 @@ Required:
 * Textbook Chapters
     * [Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-bipartite.html)
 * Software Tutorials
-    * [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
+    * [Bipartite Graphs & Two-Mode Networks](https://jacobtnyoung.github.io/snaca-r/snaca-r-bipartite.html)
 
 <br>
 <br>
@@ -893,8 +893,8 @@ Required:
 
 The following checklist will help you stay organized in your fifth week.
 
-- [ ] Complete Assigned Textbook Chapters: [Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-bipartite.html)
-- [ ] Complete Assigned Tutorials: [Tutorial 8 - Bipartite Graphs and Two-Mode Networks in R](../tutorials/tutorial-08-bipartite-twomode.html)
+- [ ] Complete Assigned Textbook Chapter: [Bipartite Graphs/Two-Mode Networks](https://jacobtnyoung.github.io/snaca-textbook/snaca-bipartite.html)
+- [ ] Complete Assigned Software Tutorial: [Bipartite Graphs & Two-Mode Networks](https://jacobtnyoung.github.io/snaca-r/snaca-r-bipartite.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 5](../labs/lab-05-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
@@ -980,7 +980,7 @@ Required reading for this unit includes:
 * Textbook Chapters
     * [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html)
 * Software Tutorials
-    * [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
+    * [Projection & Weigthed Networks](https://jacobtnyoung.github.io/snaca-r/snaca-r-projection.html)
 
 <br>
 
@@ -1002,7 +1002,7 @@ Required:
 * Textbook Chapters
     * [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html)
 * Software Tutorials
-    * [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
+    * [Projection & Weigthed Networks](https://jacobtnyoung.github.io/snaca-r/snaca-r-projection.html)
 
 <br>
 
@@ -1012,8 +1012,8 @@ Required:
 
 The following checklist will help you stay organized in your sixth week.
 
-- [ ] Complete Assigned Textbook Chapters: [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html)
-- [ ] Complete Assigned Tutorials: [Tutorial 9 - Projection of Networks in R](../tutorials/tutorial-09-projection.html)
+- [ ] Complete Assigned Textbook Chapter: [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html)
+- [ ] Complete Assigned Software Tutorial: [Projection & Weigthed Networks](https://jacobtnyoung.github.io/snaca-r/snaca-r-projection.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 6](../labs/lab-06-instructions.html) (See Below)
 - [ ] [Sign-Up for the Lab Review Sessions](https://calendly.com/jacobtnyoung/crj-507-lab-review-session)
