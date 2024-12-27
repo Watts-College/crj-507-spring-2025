@@ -39,11 +39,11 @@ rm( list = ls() )
 
 <br>
 
-## Part I
+### Part I
 
 <br>
 
-First, let's read in the `LondonGangNet` network. This is stored as an .rds document in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-london-gang-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+First, let's read in the `LondonGangNet` network that is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-london-gang-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
 
 Finally, we need to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the `LondonGangNet` object as one of class `network`.
 
@@ -56,8 +56,8 @@ library( sna )
 library( network )
 
 # define the path location for the file
-loc <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-london-gang-net.rds"
-LondonGangNet <- readRDS( url(loc ) )
+loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-london-gang-net.rds"
+LondonGangNet <- readRDS( url( loc ) )
 
 # look at the network
 LondonGangNet
@@ -66,35 +66,19 @@ LondonGangNet
 
 <br>
 
-#### 1. Calculate the degree, closeness, and betweenness centrality scores for each actor.  
+#### 1. Calculate and report the degree, closeness, and betweenness centrality scores for each actor.  
 
 <br>
 
 ```{r}
 
-# use the degree() function in the sna package
-deg.gang <- degree( 
-  LondonGangNet,
-  gmode = "graph", 
-  cmode = "degree"
-  )
-
-```
-
-Now let's calculate the closeness and betweenness scores. Recall that the `closeness()` function reports the standardized closeness centrality by default. If we want the unstandardized closeness, we can just divide the result returned by `closeness()` by *g-1*.
-
-```{r}
-
-# set the number of nodes in the network
-g <- dim( as.matrix( LondonGangNet ) )[1]
-
-# Your code here
+# your code here
 
 ```
 
 <br>
 
-#### 2. Calculate the standardized degree, closeness, and betweenness centrality scores for each actor.  
+#### 2. Calculate and report the standardized degree, closeness, and betweenness centrality scores for each actor.  
 
 ```{r}
 
@@ -104,7 +88,7 @@ g <- dim( as.matrix( LondonGangNet ) )[1]
 
 <br>
 
-#### 3. Calculate the mean degree, closeness, and betweenness centrality score.
+#### 3. Calculate and report the mean (unstandardized) degree, closeness, and betweenness centrality scores.
 
 ```{r}
 
@@ -116,13 +100,13 @@ g <- dim( as.matrix( LondonGangNet ) )[1]
 
 <br>
 
-#### 4. Compare the differences for the three mean centrality scores for each measure of centrality.
+#### 4. Interpret each mean centrality score.
 
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
+add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 5. Calculate the graph centralization for degree, closeness, and betweenness centrality.  
+#### 5. Calculate the graph centralization scores for degree, closeness, and betweenness centrality.  
 
 ```{r}
 
@@ -132,27 +116,15 @@ g <- dim( as.matrix( LondonGangNet ) )[1]
 
 <br>
 
-#### 6. Discuss the graph centralization score for closeness centrality.
+#### 6. Interpret each graph centralization score.
 
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
-
-<br>
-
-#### 7. Discuss the graph centralization score for betweenness centrality.
-
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
+add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 8. Compare the differences for the three graph centralization scores for each measure of centrality.
+#### 7. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
 
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
-
-<br>
-
-#### 9. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
-
-Be sure to use the `rescale()` function from the [betweenness centrality]() tutorial to size the nodes.
+Be sure to use the `rescale()` function below in the `vertex.cex=` argument to appropriately size the nodes.
 
 ```{r}
 
@@ -170,20 +142,20 @@ rescale <- function( nchar, low, high ){
 
 <br>
 
-#### 10. Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plot.
+#### 8. Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plots.
 
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
+add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 <br>
 
 ----
 
-## Part II
+### Part II
 
 <br>
 
-First, let's read in the `CocaineDealingNet` network. This is stored as an .rds document in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-cocaine-dealing-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+Now, let's read in the `CocaineDealingNet` network that is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-cocaine-dealing-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
 
 Above, we needed to make sure the `sna` and `network` packages were loaded, but we loaded them above so we do not need to repeat the step here.
 
@@ -192,8 +164,8 @@ Above, we needed to make sure the `sna` and `network` packages were loaded, but 
 ```{r, echo=TRUE, eval=TRUE}
 
 # define the path location for the file
-loc2 <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-cocaine-dealing-net.rds"
-CocaineDealingNet <- readRDS( url(loc2 ) )
+loc2 <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-cocaine-dealing-net.rds"
+CocaineDealingNet <- readRDS( url( loc2 ) )
 
 # look at the network
 CocaineDealingNet
@@ -202,39 +174,17 @@ CocaineDealingNet
 
 <br>
 
-#### 1. Calculate the indegree, outdegree, closeness, and betweenness centrality scores for each actor.  
+#### 1. Calculate and report the indegree, outdegree, closeness, and betweenness centrality scores for each actor.  
   
 ```{r}
 
-# use the degree() function in the sna package.
-ideg.coc <- degree( 
-  CocaineDealingNet,
-  gmode = "digraph", # note the change to a directed graph  
-  cmode = "indegree" # ask for the indegree
-  )
-
-odeg.coc <- degree( 
-  CocaineDealingNet,
-  gmode = "digraph",  # note the change to a directed graph
-  cmode = "outdegree" # toggle to return the outdegree
-  )
-
-```
-
-Now let's calculate the closeness and betweenness scores. Again, recall that the `closeness()` function reports the standardized closeness centrality by default. If we want the unstandardized closeness, we can just divide the result returned by `closeness()` by *g*. Note, that since the graph is directed, we divide by *g*, not *g-1*.
-
-```{r}
-
-# set the number of nodes in the network
-g <- dim( as.matrix( CocaineDealingNet ) )[1]
-
 # Your code here
 
 ```
 
 <br>
 
-#### 2. Calculate the standardized indegree, outdegree, closeness, and betweenness centrality scores for each actor.  
+#### 2. Calculate and report the standardized indegree, outdegree, closeness, and betweenness centrality scores for each actor.  
 
 ```{r}
 
@@ -244,7 +194,7 @@ g <- dim( as.matrix( CocaineDealingNet ) )[1]
 
 <br>
 
-#### 3. Calculate the mean indegree, outdegree, closeness, and betweenness centrality score.
+#### 3. Calculate and report the mean (unstandardized) indegree, outdegree, closeness, and betweenness centrality scores.
 
 ```{r}
 
@@ -256,13 +206,13 @@ g <- dim( as.matrix( CocaineDealingNet ) )[1]
 
 <br>
 
-#### 4. Compare the differences for the four mean centrality scores for each measure of centrality.
+#### 4. Interpret each mean centrality score.
 
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
+add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 5. Calculate the graph centralization for indegree, outdegree, closeness, and betweenness centrality.   
+#### 5. Calculate the graph centralization scores for indegree, outdegree, closeness, and betweenness centrality.  
 
 ```{r}
 
@@ -272,23 +222,13 @@ g <- dim( as.matrix( CocaineDealingNet ) )[1]
 
 <br>
 
-#### 6. Discuss the graph centralization score for closeness centrality.
+#### 6. Interpret each graph centralization score.
 
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
-
-<br>
-
-#### 7. Discuss the graph centralization score for betweenness centrality.
-
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
-
-#### 8. Compare the differences for the three graph centralization scores for each measure of centrality.
-
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
+add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 9. Plot the network four times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for indegree centrality, a plot for outdegree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
+#### 7. Plot the network four times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for indegree centrality, a plot for outdegree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
 
 <br>
 
@@ -300,9 +240,9 @@ g <- dim( as.matrix( CocaineDealingNet ) )[1]
 
 <br>
 
-#### 10. Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plot.
+#### 8. Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plots.
 
-*add your interpretation here (THEN DELETE THIS STATEMENT)*
+add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 <br>
@@ -316,7 +256,7 @@ g <- dim( as.matrix( CocaineDealingNet ) )[1]
 
 <br>
 
-*Add your code setup here according to the instructions above, then DELETE THESE STATEMENT*
+Add your code setup here according to the instructions above, then DELETE THESE STATEMENT
 
 <br>
 <br>
@@ -326,15 +266,15 @@ g <- dim( as.matrix( CocaineDealingNet ) )[1]
 <br>
 <br>
 
-## Knitting to HTML
+### Knitting to HTML
 
-When you have completed your assignment, click the "Knit" button to render your `.RMD` file into a `.HTML` report.
+When you have completed your homework, click the "Knit" button to render your `.RMD` file into a `.HTML` report.
 
 <br>
 
 ### Special Instructions
 
-Upload both your `.RMD` and `.HTML` files to the appropriate link for this assignment on the Canvas page for this course.
+Upload both your `.RMD` and `.HTML` files to the appropriate assignment on the Canvas page for this course. Just click the "Start Assignment" button to upload the files. This assignment is *DUE* on **2/21**.
 
 <br>
 
@@ -342,12 +282,11 @@ Upload both your `.RMD` and `.HTML` files to the appropriate link for this assig
 
 Remember to ensure the following before submitting your assignment.
 
-1. Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
+1. Name your files using this format: **Hmwk-##-LastName.rmd** and **Hmwk-##-LastName.html**
 2. Show both the solution for your code and write out your answers in the body text 
 
 See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for examples of common conventions.
 
-<br>
 <br>
 
 ### Common Knitting Issues
