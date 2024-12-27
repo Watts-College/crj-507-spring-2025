@@ -24,51 +24,48 @@ knitr::opts_chunk$set( echo = TRUE )
 
 # Instructions
 
-The purpose of this lab is to familiarize yourself with calculating degree centrality and degree centralization scores for undirected and directed networks in *R*. Please review the [Degree Centrality](https://jacobtnyoung.github.io/sna-textbook/ch-05-centrality-degree.html) chapter of the [SNA Textbook](https://jacobtnyoung.github.io/sna-textbook/index.html) and the [degree centrality]() tutorial prior to beginning this lab.    
+The purpose of this lab is to familiarize yourself with calculating degree centrality and degree centralization scores for undirected and directed networks in *R*. Please review the [Degree Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html) chapter of the [Social Network Analysis for Crime Analysts](https://jacobtnyoung.github.io/snaca-textbook/index.html) textbook and the [Degree Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-degree-centrality.html) tutorial in the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/index.html) textbook prior to beginning this lab.    
 
 <br>
 
 ## Part I: Working with an Undirected Network
 
-For this part of the lab you will use data from [Thomas Grund and James Densley's study](https://journals.sagepub.com/doi/full/10.1177/1043986214553377) of ties among members of an inner-city gang in London, England. The network is undirected, binary ties collected from anonymized arrests data. We will refer to this network as the `LondonGangNet`.
+For this part of the lab you will use data from [Thomas Grund and James Densley's study](https://journals.sagepub.com/doi/full/10.1177/1043986214553377) of ties among members of an inner-city gang in London, England. The network is undirected, binary ties collected from anonymized arrests data. We will refer to this network as the `LondonGangNet`. Note that the object is of class `network`. To coerce the object to be an object of class `matrix`, use the `as.matrix()` function.
 
 <br>
 
 For the `LondonGangNet` network, do the following:  
 
 1. Plot the network using the `gplot()` function.    
-2. Calculate the degree for each actor.  
-3. Calculate the standardized degree for each actor.  
-4. Calculate the mean degree.  
-5. Calculate the graph centralization for degree.  
-6. Discuss the graph centralization score.  
-
+2. Calculate the degree centrality score for each actor.  
+3. Calculate the standardized degree centrality score for each actor.  
+4. Calculate the mean degree centrality score.  
+5. Calculate the graph centralization for degree centrality.  
+6. Interpret the graph centralization score. What does it tell us about the distribution of degree centrality scores in the network? 
 
 <br>
 
 ## Part II: Working with a Directed Network
 
-For this part of the lab you will use data from [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large cocaine trafficking organization in New York City. The network is directed, binary ties of communication between individuals collected from police wiretaps of 151 telephone conversations. The raw data are available [here]( https://sites.google.com/site/ucinetsoftware/datasets/covert-networks/cocainedealingnatarajan). We will refer to this network as the `CocaineDealingNet`.
+For this part of the lab you will use data from [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large cocaine trafficking organization in New York City. The network is directed, binary ties of communication between individuals collected from police wiretaps of 151 telephone conversations. We will refer to this network as the `CocaineDealingNet`. Note that the object is of class `network`. To coerce the object to be an object of class `matrix`, use the `as.matrix()` function.
 
 <br>
 
 For the `CocaineDealingNet` network, do the following:  
 
 1. Plot the network using the `gplot()` function.    
-2. Calculate the indegree and outdegree for each actor.  
-3. Calculate the standardized indegree and outdegree for each actor.  
-4. Calculate the mean indegree and outdegree.  
-5. Compare the two means.  
-6. Calculate the graph centralization for indegree and outdegree.  
-7. Compare the two graph centralization scores.  
+2. Calculate the indegree and outdegree centrality scores for each actor.  
+3. Calculate the standardized indegree and outdegree centrality scores for each actor.  
+4. Calculate the mean indegree and mean outdegree centrality scores.  
+5. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
+6. Calculate the graph centralization for indegree and outdegree centrality.  
+7. Interpret each graph centralization score and comapre them. Is one larger than the other? What does this mean?  
 
 <br>
 
 ## Part III:
 
-In [lab 01]() you created two networks and in [lab 02]() you imported, created a object of class network, and plotted the networks. I would like you to continue working with those networks for this part of the lab. 
-
-Pick **one** of your networks and do the following:
+Pick **one** of your networks you created in [Lab 1](../labs/lab-01-instructions.html) and [Lab 2](../labs/lab-02-instructions.html) and do the following:
 
   * If the network is *undirected*, repeat the steps in Part I.  
   
@@ -92,11 +89,11 @@ rm( list = ls() )
 
 ```
 
-## Part I
+### Part I
 
 <br>
 
-First, let's read in the `LondonGangNet` network. This is stored as an .rds document in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-london-gang-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+First, let's read in the `LondonGangNet` network that is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-london-gang-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
 
 Finally, we need to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the `LondonGangNet` object as one of class `network`.
 
@@ -109,8 +106,8 @@ library( sna )
 library( network )
 
 # define the path location for the file
-loc <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-london-gang-net.rds"
-LondonGangNet <- readRDS( url(loc ) )
+loc <- "https://github.com/jacobtnyoung/snaca-R/raw/main/data/data-london-gang-net.rds"
+LondonGangNet <- readRDS( url( loc ) )
 
 # look at the network
 LondonGangNet
@@ -135,26 +132,26 @@ gplot(
 
 <br>
 
-#### 2. Calculate the degree for each actor.  
+#### 2. Calculate the degree centrality score for each actor.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
 # use the degree() function in the sna package.
-deg.gang <- degree( 
+deg_gang <- degree( 
   LondonGangNet,
   gmode = "graph", 
   cmode = "degree"
   )
 
 # print it out
-deg.gang
+deg_gang
 
 # look at the distribution
 hist( 
-  deg.gang,
+  deg_gang,
   col = "firebrick",
-  xlim=c( min( deg.gang ) - 1,
-          max( deg.gang ) + 1 ),
+  xlim=c( min( deg_gang ) - 1,
+          max( deg_gang ) + 1 ),
   xlab="Degree",
   main="Histograms for\n Degree Distribution",
   breaks=25 
@@ -165,22 +162,22 @@ hist(
 
 <br>
 
-#### 3. Calculate the standardized degree for each actor.  
+#### 3. Calculate the standardized degree centrality score for each actor.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
 # standardized score is deg / g-1 where g is the number of nodes.
-s.deg.gang <- deg.gang / ( dim( as.matrix( LondonGangNet ) )[1] - 1 )
+s_deg_gang <- deg_gang / ( dim( as.matrix( LondonGangNet ) )[1] - 1 )
 
 # print it
-s.deg.gang
+s_deg_gang
 
 # plot it
 hist( 
-  s.deg.gang,
+  s_deg_gang,
   col = "firebrick",
-  xlim=c( min( s.deg.gang ) - .1,
-          max( s.deg.gang ) + .1 ),
+  xlim=c( min( s_deg_gang ) - .1,
+          max( s_deg_gang ) + .1 ),
   xlab="Degree",
   main="Histograms for\n Standarized Degree Distribution",
   breaks=25 
@@ -190,25 +187,25 @@ hist(
 
 <br>
 
-#### 4. Calculate the mean degree.  
+#### 4. Calculate the mean degree centrality score.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
-mean.deg.gang <- sum( as.matrix( LondonGangNet ) ) / dim( as.matrix( LondonGangNet ) )[1] 
+mean_deg_gang <- sum( as.matrix( LondonGangNet ) ) / dim( as.matrix( LondonGangNet ) )[1] 
 
-mean.deg.gang
+mean_deg_gang
 
 ```
 
 <br>
 
-#### 5. Calculate the graph centralization for degree.  
+#### 5. Calculate the graph centralization for degree centrality.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
-cent.gang <- centralization( LondonGangNet, degree, mode="graph", cmode="degree" )
+cent_gang <- centralization( LondonGangNet, degree, mode="graph", cmode="degree" )
 
-cent.gang
+cent_gang
 
 ```
 
@@ -218,16 +215,16 @@ cent.gang
 
 When degree centrality is evenly dispersed, meaning that all nodes have the same degree, then the numerator in the equation will be zero and the quotient will be close to 0. When there is considerable inequality in the degree centrality scores between nodes, the quotient will be closer to 1. Thus, closer to 1 indicates that the graph is hierarchically structured and closer to 0 means that the graph is more decentralized.
 
-The *degree* centralization score is very somewhat close to zero, at `r round( cent.gang, 2 )` meaning that the ties in the network are fairly decentralized. 
+The *degree* centralization score is somewhat close to zero, at `r round( cent_gang, 2 )` meaning that the ties in the network are fairly decentralized. 
 
 <br>
 <br>
 
-## Part II
+### Part II
 
 <br>
 
-First, let's read in the `CocaineDealingNet` network. This is stored as an .rds document in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-cocaine-dealing-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+First, let's read in the `CocaineDealingNet` network that is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-cocaine-dealing-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
 
 Above, we needed to make sure the `sna` and `network` packages were loaded, but we loaded them above so we do not need to repeat the step here.
 
@@ -236,8 +233,8 @@ Above, we needed to make sure the `sna` and `network` packages were loaded, but 
 ```{r, echo=TRUE, eval=TRUE}
 
 # define the path location for the file
-loc2 <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-cocaine-dealing-net.rds"
-CocaineDealingNet <- readRDS( url(loc2 ) )
+loc2 <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-cocaine-dealing-net.rds"
+CocaineDealingNet <- readRDS( url( loc2 ) )
 
 # look at the network
 CocaineDealingNet
@@ -263,18 +260,18 @@ gplot(
 
 <br>
 
-#### 2. Calculate the indegree and outdegree for each actor.  
+#### 2. Calculate the indegree and outdegree centrality scores for each actor.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
 # use the degree() function in the sna package.
-ideg.coc <- degree( 
+ideg_coc <- degree( 
   CocaineDealingNet,
   gmode = "digraph", # note the change to a directed graph  
   cmode = "indegree" # ask for the indegree
   )
 
-odeg.coc <- degree( 
+odeg_coc <- degree( 
   CocaineDealingNet,
   gmode = "digraph",  # note the change to a directed graph
   cmode = "outdegree" # toggle to return the outdegree
@@ -282,26 +279,26 @@ odeg.coc <- degree(
 
 
 # print the degrees
-ideg.coc
-odeg.coc
+ideg_coc
+odeg_coc
 
 
 # look at the distributions
 hist( 
-  ideg.coc,
+  ideg_coc,
   col = "lightgreen",
-  xlim=c( min( ideg.coc ) - 1,
-          max( ideg.coc ) + 1 ),
+  xlim=c( min( ideg_coc ) - 1,
+          max( ideg_coc ) + 1 ),
   xlab="Indegree",
   main="Histograms for\n Indegree Distribution",
   breaks=25 
   )
 
 hist( 
-  odeg.coc,
+  odeg_coc,
   col = "lavender",
-  xlim=c( min( odeg.coc ) - 1,
-          max( odeg.coc ) + 1 ),
+  xlim=c( min( odeg_coc ) - 1,
+          max( odeg_coc ) + 1 ),
   xlab="Outdegree",
   main="Histograms for\n Outdegree Distribution",
   breaks=25 
@@ -311,34 +308,34 @@ hist(
 
 <br>
 
-#### 3. Calculate the standardized indegree and outdegree for each actor.  
+#### 3. Calculate the standardized indegree and outdegree centrality scores for each actor.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
 # standardized score is deg / g-1 where g is the number of nodes.
-s.ideg.coc <- ideg.coc / ( dim( as.matrix( CocaineDealingNet ) )[1] - 1 )
-s.odeg.coc <- odeg.coc / ( dim( as.matrix( CocaineDealingNet ) )[1] - 1 )
+s_ideg_coc <- ideg_coc / ( dim( as.matrix( CocaineDealingNet ) )[1] - 1 )
+s_odeg_coc <- odeg_coc / ( dim( as.matrix( CocaineDealingNet ) )[1] - 1 )
 
 # print it
-s.ideg.coc
-s.odeg.coc
+s_ideg_coc
+s_odeg_coc
 
 # look at the distributions
 hist( 
-  s.ideg.coc,
+  s_ideg_coc,
   col = "lightgreen",
-  xlim=c( min( s.ideg.coc ) - .1,
-          max( s.ideg.coc ) + .1 ),
+  xlim=c( min( s_ideg_coc ) - .1,
+          max( s_ideg_coc ) + .1 ),
   xlab="Standardized Indegree",
   main="Histograms for\n Standardized Indegree Distribution",
   breaks=25 
   )
 
 hist( 
-  s.odeg.coc,
+  s_odeg_coc,
   col = "lavender",
-  xlim=c( min( s.odeg.coc ) - .1,
-          max( s.odeg.coc ) + .1 ),
+  xlim=c( min( s_odeg_coc ) - .1,
+          max( s_odeg_coc ) + .1 ),
   xlab="Standardized Outdegree",
   main="Histograms for\n Standardized Outdegree Distribution",
   breaks=25 
@@ -349,52 +346,52 @@ hist(
 
 <br>
 
-#### 4. Calculate the mean indegree and outdegree.  
+#### 4. Calculate the mean indegree and mean outdegree centrality scores.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
 # the mean is L/g for a directed graph where L is the number of edges and g is the number of nodes.
-mean.ideg.coc <- sum( as.matrix( CocaineDealingNet ) ) / dim( as.matrix( CocaineDealingNet ) )[1] 
+mean_ideg_coc <- sum( as.matrix( CocaineDealingNet ) ) / dim( as.matrix( CocaineDealingNet ) )[1] 
 
-mean.odeg.coc <- sum( as.matrix( CocaineDealingNet ) ) / dim( as.matrix( CocaineDealingNet ) )[1] 
+mean_odeg_coc <- sum( as.matrix( CocaineDealingNet ) ) / dim( as.matrix( CocaineDealingNet ) )[1] 
 
 ```
 
 <br>
 
-#### 5. Compare the two means.  
+#### 5. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
 
 ```{r, echo=TRUE, eval=TRUE}
 
-mean.ideg.coc
+mean_ideg_coc
 
-mean.odeg.coc
+mean_odeg_coc
 
 ```  
 
-The means are equal. This is because the number of edges does not change when examining the indegree vs. the outdegree.
+The means are equal. This is because the number of edges does not change when examining the indegree versus the outdegree.
 
 <br>
 
-#### 6. Calculate the graph centralization for indegree and outdegree.  
+#### 6. Calculate the graph centralization for indegree and outdegree centrality.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
-icent.coc <- centralization( CocaineDealingNet, degree, mode="digraph", cmode="indegree" )
+icent_coc <- centralization( CocaineDealingNet, degree, mode="digraph", cmode="indegree" )
 
-ocent.coc <- centralization( CocaineDealingNet, degree, mode="digraph", cmode="outdegree" )
+ocent_coc <- centralization( CocaineDealingNet, degree, mode="digraph", cmode="outdegree" )
 
 ```
 
 <br>
 
-#### 7. Compare the two graph centralization scores.  
+#### 7. Interpret each graph centralization score and comapre them. Is one larger than the other? What does this mean?
 
 ```{r, echo=TRUE, eval=TRUE}
 
-icent.coc
+icent_coc
 
-ocent.coc
+ocent_coc
 
 ``` 
 
@@ -402,9 +399,9 @@ ocent.coc
 
 When degree centrality is evenly dispersed, meaning that all nodes have the same degree, then the numerator in the equation will be zero and the quotient will be close to 0. When there is considerable inequality in the degree centrality scores between nodes, the quotient will be closer to 1. Thus, closer to 1 indicates that the graph is hierarchically structured and closer to 0 means that the graph is more decentralized.
 
-The *indegree* centralization score is very close to 0, at `r round( icent.coc, 2 )` meaning that the network is fairly decentralized with regard to ties received. This means that lots of different actors in the network are receiving calls.
+The *indegree* centralization score is very close to 0, at `r round( icent_coc, 2 )` meaning that the network is fairly decentralized with regard to ties received. This means that lots of different actors in the network are receiving calls.
 
-In contrast, the *outdegree* centralization score is very close to 1, at `r round( ocent.coc, 2 )` meaning that the network is fairly hierarchical with regard to ties sent. This means that one individual is making most of the calls to others.
+In contrast, the *outdegree* centralization score is very close to 1, at `r round( ocent_coc, 2 )` meaning that the network is fairly hierarchical with regard to ties sent. This means that one individual is making most of the calls to others.
 
 <br>
 <br>
@@ -412,13 +409,6 @@ In contrast, the *outdegree* centralization score is very close to 1, at `r roun
 ## Part III:
 
 *Your content here*
-
-<br>
-<br>
-
-----
-
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-template/issues) page. Thanks!
 
 <br>
 <br>

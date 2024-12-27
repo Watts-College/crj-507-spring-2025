@@ -51,7 +51,6 @@ For the `LondonGangNet` network, do the following:
 
 For this part of the lab you will use data from [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large cocaine trafficking organization in New York City. The network is directed, binary ties of communication between individuals collected from police wiretaps of 151 telephone conversations. We will refer to this network as the `CocaineDealingNet`. Note that the object is of class `network`. To coerce the object to be an object of class `matrix`, use the `as.matrix()` function.
 
-
 <br>
 
 For the `CocaineDealingNet` network, do the following:  

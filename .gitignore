@@ -1,6 +1,12 @@
-.Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
+.DS_Store
+
 /.quarto/
+
+
+# solutions to the labs
+labs/solutions
+.Rproj.user
