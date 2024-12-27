@@ -47,7 +47,7 @@ ____
 
 ## Part II
 
-After completing Part I, choose a new network and repeat Part I on that network.
+After completing Part I, create a new network and repeat Part I on that network.
 
 ____
 

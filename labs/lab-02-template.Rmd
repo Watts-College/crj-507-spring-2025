@@ -43,11 +43,10 @@ library( sna )
 
 As indicated in the instructions, for *each* network you created, do the following:  
 
-1. Create an adjacency matrix of the network and save it as a .csv file.
-2. Import the network into *R* using the `read.csv()` function or create the network using the `matrix()` function.
-3. Create an object of class `network`. 
-4. Plot the network using the `gplot()` function.    
-5. Modify the plot using at least three arguments in the `gplot()` function.  
+1. Create an adjacency matrix using the `matrix()` function.
+2. Create an object of class `network`. 
+3. Plot the network using the `gplot()` function.    
+4. Modify the plot using at least three arguments in the `gplot()` function.  
 
 As a refresher, review the example below.
 
@@ -55,44 +54,27 @@ As a refresher, review the example below.
 
 ## Example: 
 
-If you are importing your network, use the `read.csv()` function:
-
-```{r import-example, echo = TRUE, eval = TRUE}
-
-# define the path
-url <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-undirected-example.csv"
-
-# import the undirected matrix
-mat.u <- read.csv( 
-  url,
-  as.is = TRUE,
-  header = TRUE,
-  row.names = 1 
-  )
-
-```
-
-If you are creating your network, use the `matrix()` function:
+Create your network, use the `matrix()` function:
 
 <br>
 
 ```{r create-example, echo = TRUE, eval = TRUE}
 
 # created a directed matrix
-mat.d <- matrix(
+mat_d <- matrix(
   c(0,1,0,0,0,1,0,1,0,0,0,1,0,1,1,0,0,1,0,1,0,0,1,1,0),
   nrow=5,
   byrow=TRUE
   )
 
 # attach row names
-rownames( mat.d ) <- c( "Jen","Tom","Bob","Leaf","Jim" )
+rownames( mat_d ) <- c( "Jen","Tom","Bob","Leaf","Jim" )
 
 # attach column names
-colnames( mat.d ) <- c( "Jen","Tom","Bob","Leaf","Jim" )
+colnames( mat_d ) <- c( "Jen","Tom","Bob","Leaf","Jim" )
 
 # print out the object
-mat.d
+mat_d
 
 ```
 
@@ -103,26 +85,25 @@ Create an object of class `network` using the `as.network()` function.
 ```{r coerce-example, echo =  TRUE, eval = TRUE}
 
 # coerce the matrix object
-net.d <- as.network( 
-  mat.d,
+net_d <- as.network( 
+  mat_d,
   directed = TRUE # set this to false for an directed network; FALSE for an undirected network
   )
 
 # print the object to see the properties
-net.d
+net_d
 
 ```
 
-
 <br>
 
-Finally, let's plot the networks using the `gplot()` function. Note that we can use either the object `mat.u` which is of class `matrix` or the object `net.u` which is of class `network`.
+Finally, let's plot the networks using the `gplot()` function. Note that we can use either the object `mat_d` which is of class `matrix` or the object `net_u` which is of class `network`.
 
 ```{r create-undirected-plot, echo = TRUE, eval = TRUE}
 
 # produce the plot
 gplot(
-  mat.u,                          # this is the network to plot
+  mat_d,                          # this is the network to plot
   gmode = "graph",                # let it know it is undirected    
   vertex.col = "lightblue",       # color the nodes
   vertex.cex = 1.2,               # size of the nodes (bigger number is bigger nodes)
@@ -139,7 +120,7 @@ gplot(
 
 # produce the plot
 gplot(
-  mat.d,                          # this is the network to plot
+  mat_d,                          # this is the network to plot
   vertex.col = "firebrick",       # color the nodes
   vertex.cex = 1.2,               # size of the nodes (bigger number is bigger nodes)
   edge.col = "grey80",            # color the ties
@@ -171,9 +152,9 @@ rm( list = ls() )
 
 <br>
 
-### Step 2
+### Step 1
 
-Import the network into *R* using the `read.csv()` function or create the network using the `matrix()` function.
+Create the network using the `matrix()` function.
 
 ```{r}
 
@@ -183,7 +164,7 @@ Import the network into *R* using the `read.csv()` function or create the networ
 
 <br>
 
-### Step 3
+### Step 2
 
 Create an object of class `network`. 
 
@@ -195,7 +176,7 @@ Create an object of class `network`.
 
 <br>
 
-### Steps 4 & 5
+### Steps 3 & 4
 
 Create an object of class `network`. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.    
 
@@ -207,13 +188,13 @@ Create an object of class `network`. Plot the network using the `gplot()` functi
 
 <br>
 
-## Second Network
+## First Network
 
 <br>
 
-### Step 2
+### Step 1
 
-Import the network into *R* using the `read.csv()` function or create the network using the `matrix()` function.
+Create the network using the `matrix()` function.
 
 ```{r}
 
@@ -223,7 +204,7 @@ Import the network into *R* using the `read.csv()` function or create the networ
 
 <br>
 
-### Step 3
+### Step 2
 
 Create an object of class `network`. 
 
@@ -235,17 +216,9 @@ Create an object of class `network`.
 
 <br>
 
-### Steps 4 & 5
+### Steps 3 & 4
 
 Create an object of class `network`. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.    
-
-<br>
-
-```{r}
-
-# Your code here
-
-```
 
 <br>
 <br>

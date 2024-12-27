@@ -29,7 +29,8 @@ The purpose of this lab is to familiarize yourself with how networks are created
 
 <br>
 
-In [Lab 1](../labs/lab-01-instructions.html) you created two networks. I would like you to continue working with those networks for *this* lab. Please review [Tutorial 3 - Introduction to Networks in R](../tutorials/tutorial-03-network-data.html) and [Tutorial 4 - Basics of Network Visualization](../tutorials/tutorial-04-visualization.html) prior to beginning this lab.  
+In [Lab 1](../labs/lab-01-instructions.html) you created two networks. I would like you to continue working with those networks for *this* lab. Please review the [
+Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html) and [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html) tutorials prior to beginning this lab.  
 
 Two **IMPORTANT** points:  
 
@@ -37,17 +38,16 @@ Two **IMPORTANT** points:
   
   + If you review the instructions below and you feel like your network is not appropriate for the assignment and need to create a different example...that is fine! We will use these networks throughout the course, so I want to make sure you have something you can work with consistently.
 
-Make sense? If you have questions before you begin, just post an [issue](https://github.com/Watts-College/crj-507-spring-2024/issues/new) to the course help page.
+Make sense? If you have questions before you begin, just post an [issue](https://github.com/Watts-College/crj-507-spring-2025/issues/new) to the course help page.
 
 <br>
 
 For *each* network you created, do the following:  
 
-1. Create an adjacency matrix of the network and save it as a .csv file.
-2. Import the network into *R* using the `read.csv()` function or create the network using the `matrix()` function.
-3. Create an object of class `network`. 
-4. Plot the network using the `gplot()` function.    
-5. Modify the plot using at least three arguments in the `gplot()` function.  
+1. Create an adjacency matrix of the network using the `matrix()` function.
+2. Create an object of class `network`. 
+3. Plot the network using the `gplot()` function.    
+4. Modify the plot using at least three arguments in the `gplot()` function.  
 
 <br>
 
@@ -102,7 +102,7 @@ ____
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2024/issues/new) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
 
 <br>
 <br>
