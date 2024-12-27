@@ -56,11 +56,11 @@ rm( list = ls() )
 
 <br>
 
-## Part I
+### Part I
 
 <br>
 
-First, let's read in the `LondonGangNet` network. This is stored as an .rds document in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-london-gang-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+First, let's read in the `LondonGangNet` network that is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-london-gang-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
 
 Finally, we need to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the `LondonGangNet` object as one of class `network`.
 
@@ -73,8 +73,8 @@ library( sna )
 library( network )
 
 # define the path location for the file
-loc <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-london-gang-net.rds"
-LondonGangNet <- readRDS( url(loc ) )
+loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-london-gang-net.rds"
+LondonGangNet <- readRDS( url( loc ) )
 
 # look at the network
 LondonGangNet
@@ -99,7 +99,7 @@ gplot(
 
 <br>
 
-#### 2. Calculate the degree for each actor.  
+#### 2. Calculate the degree centrality score for each actor.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
@@ -109,7 +109,7 @@ gplot(
 
 <br>
 
-#### 3. Calculate the standardized degree for each actor.  
+#### 3. Calculate the standardized degree centrality score for each actor.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
@@ -121,7 +121,7 @@ gplot(
 
 <br>
 
-#### 4. Calculate the mean degree.  
+#### 4. Calculate the mean degree centrality score.  
 
 ```{r}
 
@@ -131,7 +131,7 @@ gplot(
 
 <br>
 
-#### 5. Calculate the graph centralization for degree.  
+#### 5. Calculate the graph centralization for degree centrality.  
 
 ```{r}
 
@@ -141,18 +141,18 @@ gplot(
 
 <br>
 
-#### 6. Discuss the graph centralization score.  
+#### 6. Interpret the graph centralization score. What does it tell us about the distribution of degree centrality scores in the network?   
 
 *add your interpretation here (THEN DELETE THIS STATEMENT)*
 
 <br>
 <br>
 
-## Part II
+### Part II
 
 <br>
 
-First, let's read in the `CocaineDealingNet` network. This is stored as an .rds document in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-cocaine-dealing-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+First, let's read in the `CocaineDealingNet` network that is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-cocaine-dealing-nett.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
 
 Above, we needed to make sure the `sna` and `network` packages were loaded, but we loaded them above so we do not need to repeat the step here.
 
@@ -161,8 +161,8 @@ Above, we needed to make sure the `sna` and `network` packages were loaded, but 
 ```{r, echo=TRUE, eval=TRUE}
 
 # define the path location for the file
-loc2 <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-cocaine-dealing-net.rds"
-CocaineDealingNet <- readRDS( url(loc2 ) )
+loc2 <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-cocaine-dealing-net.rds"
+CocaineDealingNet <- readRDS( url( loc2 ) )
 
 # look at the network
 CocaineDealingNet
@@ -183,7 +183,7 @@ CocaineDealingNet
 
 <br>
 
-#### 2. Calculate the indegree and outdegree for each actor.  
+#### 2. Calculate the indegree and outdegree centrality scores for each actor.  
 
 ```{r}
 
@@ -193,7 +193,7 @@ CocaineDealingNet
 
 <br>
 
-#### 3. Calculate the standardized indegree and outdegree for each actor.  
+#### 3. Calculate the standardized indegree and outdegree centrality scores for each actor.  
 
 ```{r}
 
@@ -203,7 +203,7 @@ CocaineDealingNet
 
 <br>
 
-#### 4. Calculate the mean indegree and outdegree.  
+#### 4. Calculate the mean indegree and mean outdegree centrality scores.
 
 ```{r}
 
@@ -213,7 +213,7 @@ CocaineDealingNet
 
 <br>
 
-#### 5. Compare the two means.  
+#### 5. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
 
 ```{r}
 
@@ -223,7 +223,7 @@ CocaineDealingNet
 
 <br>
 
-#### 6. Calculate the graph centralization for indegree and outdegree.  
+#### 6. Calculate the graph centralization for indegree and outdegree centrality.  
 
 ```{r}
 
@@ -233,7 +233,7 @@ CocaineDealingNet
 
 <br>
 
-#### 7. Compare the two graph centralization scores.  
+#### 7. Interpret each graph centralization score and comapre them. Is one larger than the other? What does this mean?
 
 *add your comparison here (THEN DELETE THIS STATEMENT)*
 
