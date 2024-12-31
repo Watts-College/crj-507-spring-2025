@@ -4,7 +4,6 @@ title: Syllabus
 
 index:
     title: Social Network Analysis
-    <!--- image: data-science.png -->
     subtitle: The objective of this course is to introduce students to Social Network Analysis and its practical application in the criminal justice system. Students will be able to understand and discuss the fundamental issues associated with social network analysis and will understand how to use software to conduct social network analysis. This course offers a practical, tools-based approach that is designed to build strong foundations for people that want to work as analysts in criminal justice fields. The course is analytically rigorous, but no prior programming experience is assumed. By the end of this course, you will know how to construct networks, analyze them, and create reports on networks. 
 
 info:
