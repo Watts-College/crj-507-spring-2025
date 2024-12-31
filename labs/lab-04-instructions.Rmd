@@ -12,19 +12,21 @@ output:
     self_contained: true
 ---
 
-<style>
-body {
-text-align: left}
-</style>
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set( echo = TRUE )
 ```
 
 # Introduction
 
-The purpose of this lab is to familiarize yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in *R*. Please review the [Closeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-closeness.html) and the [Betweeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-betweenness.html) chapters of the [Social Network Analysis for Crime Analysts](https://jacobtnyoung.github.io/snaca-textbook/index.html) textbook as well as the [Closeness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-closeness-centrality.html) and [Betweenness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-closeness-centrality.html) tutorials in the  [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/index.html) textbook, prior to beginning this lab.
+The purpose of this lab is to familiarize yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in *R*. Please review the following materials before beginning the lab:
+
+  + [Social Network Analysis for Crime Analysts](https://jacobtnyoung.github.io/snaca-textbook/index.html) textbook chapters:
+    + [Closeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-closeness.html) 
+    + [Betweeness Centrality](https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-betweenness.html)
+
+  + [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/index.html) textbook tutorials:
+    + [Closeness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-closeness-centrality.html)
+    + [Betweenness Centrality and Centralization](https://jacobtnyoung.github.io/snaca-r/snaca-r-closeness-centrality.html)
 
 In Parts I and II of this lab we will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html). In Part III, you will use the two networks you created from [Lab 1](../labs/lab-01-instructions.html) and [Lab 2](../labs/lab-02-instructions.html).
 

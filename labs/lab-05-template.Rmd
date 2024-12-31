@@ -30,7 +30,7 @@ knitr::opts_chunk$set( echo = TRUE,
 
 ## Setup
 
-```{r, echo=TRUE, eval=TRUE, message=FALSE, warning=FALSE}
+```{r}
 
 # clear the workspace
 rm( list = ls() )
@@ -39,24 +39,24 @@ rm( list = ls() )
 
 <br>
 
-## Part I
+### Part I
 
 <br>
 
-First, let's read in the `PaulRevereNet` network. This is stored as an .rds document in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-paul-revere-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+First, let's read in the `PaulRevereNet` network. This is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-paul-revere-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
 
-Finally, we need to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the `PaulRevereNet` object as one of class `network`.
+We need to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the `PaulRevereNet` object as one of class `network`.
 
 <br>
 
-```{r, message=FALSE, warning=FALSE}
+```{r}
 
 # load the libraries we need
 library( sna )
 library( network )
 
 # define the path location for the file
-loc <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-paul-revere-net.rds"
+loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-paul-revere-net.rds"
 PaulRevereNet <- readRDS( url( loc ) )
 
 # look at the network
@@ -173,24 +173,24 @@ PaulRevereNet
 
 ----
 
-## Part II
+### Part II
 
 <br>
 
-First, let's read in the `PhilKidnapNet` network. This is stored as an .rds document in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-philippine-kidnappings-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
+Now, let's read in the `PhilKidnapNet` network. This is stored as an .rds document in the data folder on the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/) textbook's [data page](https://github.com/jacobtnyoung/snaca-r/tree/main/data). We will use the `readRDS()` function, with the [file path](https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-philippine-kidnappings-net.rds), to load the file. Since we are calling a url, we need to use the `url()` function as well.  
 
-Finally, we need to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the `PhilKidnapNet` object as one of class `network`.
+We need to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the `PhilKidnapNet` object as one of class `network`.
 
 <br>
 
-```{r, message=FALSE, warning=FALSE}
+```{r}
 
 # clear the workspace so we don't use any duplicate names
 rm( list = ls() )
 
 # define the path location for the file
-loc <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-philippine-kidnappings-net.rds"
-PhilKidnapNet <- readRDS( url( loc ) )
+loc2 <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-philippine-kidnappings-net.rds"
+PhilKidnapNet <- readRDS( url( loc2 ) )
 
 # look at the network
 PhilKidnapNet
