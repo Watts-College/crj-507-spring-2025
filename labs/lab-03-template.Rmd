@@ -24,7 +24,6 @@ knitr::opts_chunk$set( echo = TRUE,
 
 ```
 
-
 <br>
 
 ```{r load_packages}
@@ -56,7 +55,7 @@ rm( list = ls() )
 
 <br>
 
-### Part I
+## Part I
 
 <br>
 
@@ -83,7 +82,7 @@ LondonGangNet
 
 <br>
 
-#### 1. Plot the network using the `gplot()` function.    
+### 1. Plot the network using the `gplot()` function.    
 
 <br>
 
@@ -99,7 +98,7 @@ gplot(
 
 <br>
 
-#### 2. Calculate the degree centrality score for each actor.  
+### 2. Calculate the degree centrality score for each actor.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
@@ -109,7 +108,7 @@ gplot(
 
 <br>
 
-#### 3. Calculate the standardized degree centrality score for each actor.  
+### 3. Calculate the standardized degree centrality score for each actor.  
 
 ```{r, echo=TRUE, eval=TRUE}
 
@@ -121,7 +120,7 @@ gplot(
 
 <br>
 
-#### 4. Calculate the mean degree centrality score.  
+### 4. Calculate the mean degree centrality score.  
 
 ```{r}
 
@@ -131,7 +130,7 @@ gplot(
 
 <br>
 
-#### 5. Calculate the graph centralization for degree centrality.  
+### 5. Calculate the graph centralization for degree centrality.  
 
 ```{r}
 
@@ -141,14 +140,14 @@ gplot(
 
 <br>
 
-#### 6. Interpret the graph centralization score. What does it tell us about the distribution of degree centrality scores in the network?   
+### 6. Interpret the graph centralization score. What does it tell us about the distribution of degree centrality scores in the network?   
 
 add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 <br>
 
-### Part II
+## Part II
 
 <br>
 
@@ -171,7 +170,7 @@ CocaineDealingNet
 
 <br>
 
-#### 1. Plot the network using the `gplot()` function.    
+### 1. Plot the network using the `gplot()` function.    
 
 <br>
 
@@ -183,7 +182,7 @@ CocaineDealingNet
 
 <br>
 
-#### 2. Calculate the indegree and outdegree centrality scores for each actor.  
+### 2. Calculate the indegree and outdegree centrality scores for each actor.  
 
 ```{r}
 
@@ -193,7 +192,7 @@ CocaineDealingNet
 
 <br>
 
-#### 3. Calculate the standardized indegree and outdegree centrality scores for each actor.  
+### 3. Calculate the standardized indegree and outdegree centrality scores for each actor.  
 
 ```{r}
 
@@ -203,7 +202,7 @@ CocaineDealingNet
 
 <br>
 
-#### 4. Calculate the mean indegree and mean outdegree centrality scores.
+### 4. Calculate the mean indegree and mean outdegree centrality scores.
 
 ```{r}
 
@@ -213,7 +212,7 @@ CocaineDealingNet
 
 <br>
 
-#### 5. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
+### 5. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
 
 ```{r}
 
@@ -223,7 +222,7 @@ CocaineDealingNet
 
 <br>
 
-#### 6. Calculate the graph centralization for indegree and outdegree centrality.  
+### 6. Calculate the graph centralization for indegree and outdegree centrality.  
 
 ```{r}
 
@@ -233,7 +232,7 @@ CocaineDealingNet
 
 <br>
 
-#### 7. Interpret each graph centralization score and comapre them. Is one larger than the other? What does this mean?
+### 7. Interpret each graph centralization score and comapre them. Is one larger than the other? What does this mean?
 
 *add your comparison here (THEN DELETE THIS STATEMENT)*
 

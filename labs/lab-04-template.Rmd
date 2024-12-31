@@ -39,7 +39,7 @@ rm( list = ls() )
 
 <br>
 
-### Part I
+## Part I
 
 <br>
 
@@ -66,7 +66,7 @@ LondonGangNet
 
 <br>
 
-#### 1. Calculate and report the degree, closeness, and betweenness centrality scores for each actor.  
+### 1. Calculate and report the degree, closeness, and betweenness centrality scores for each actor.  
 
 <br>
 
@@ -78,7 +78,7 @@ LondonGangNet
 
 <br>
 
-#### 2. Calculate and report the standardized degree, closeness, and betweenness centrality scores for each actor.  
+### 2. Calculate and report the standardized degree, closeness, and betweenness centrality scores for each actor.  
 
 ```{r}
 
@@ -88,7 +88,7 @@ LondonGangNet
 
 <br>
 
-#### 3. Calculate and report the mean (unstandardized) degree, closeness, and betweenness centrality scores.
+### 3. Calculate and report the mean (unstandardized) degree, closeness, and betweenness centrality scores.
 
 ```{r}
 
@@ -100,13 +100,13 @@ LondonGangNet
 
 <br>
 
-#### 4. Interpret each mean centrality score.
+### 4. Interpret each mean centrality score.
 
 add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 5. Calculate the graph centralization scores for degree, closeness, and betweenness centrality.  
+### 5. Calculate the graph centralization scores for degree, closeness, and betweenness centrality.  
 
 ```{r}
 
@@ -116,13 +116,13 @@ add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 6. Interpret each graph centralization score.
+### 6. Interpret each graph centralization score.
 
 add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 7. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
+### 7. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
 
 Be sure to use the `rescale()` function below in the `vertex.cex=` argument to appropriately size the nodes.
 
@@ -142,7 +142,7 @@ rescale <- function( nchar, low, high ){
 
 <br>
 
-#### 8. Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plots.
+### 8. Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plots.
 
 add your interpretation here (THEN DELETE THIS STATEMENT)
 
@@ -151,7 +151,7 @@ add your interpretation here (THEN DELETE THIS STATEMENT)
 
 ----
 
-### Part II
+## Part II
 
 <br>
 
@@ -174,7 +174,7 @@ CocaineDealingNet
 
 <br>
 
-#### 1. Calculate and report the indegree, outdegree, closeness, and betweenness centrality scores for each actor.  
+### 1. Calculate and report the indegree, outdegree, closeness, and betweenness centrality scores for each actor.  
   
 ```{r}
 
@@ -184,7 +184,7 @@ CocaineDealingNet
 
 <br>
 
-#### 2. Calculate and report the standardized indegree, outdegree, closeness, and betweenness centrality scores for each actor.  
+### 2. Calculate and report the standardized indegree, outdegree, closeness, and betweenness centrality scores for each actor.  
 
 ```{r}
 
@@ -194,7 +194,7 @@ CocaineDealingNet
 
 <br>
 
-#### 3. Calculate and report the mean (unstandardized) indegree, outdegree, closeness, and betweenness centrality scores.
+### 3. Calculate and report the mean (unstandardized) indegree, outdegree, closeness, and betweenness centrality scores.
 
 ```{r}
 
@@ -206,13 +206,13 @@ CocaineDealingNet
 
 <br>
 
-#### 4. Interpret each mean centrality score.
+### 4. Interpret each mean centrality score.
 
 add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 5. Calculate the graph centralization scores for indegree, outdegree, closeness, and betweenness centrality.  
+### 5. Calculate the graph centralization scores for indegree, outdegree, closeness, and betweenness centrality.  
 
 ```{r}
 
@@ -222,13 +222,13 @@ add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 6. Interpret each graph centralization score.
+### 6. Interpret each graph centralization score.
 
 add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 7. Plot the network four times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for indegree centrality, a plot for outdegree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
+### 7. Plot the network four times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e. a plot for indegree centrality, a plot for outdegree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
 
 <br>
 
@@ -240,7 +240,7 @@ add your interpretation here (THEN DELETE THIS STATEMENT)
 
 <br>
 
-#### 8. Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plots.
+### 8. Examine the plots. Describe how the differences you noted between the centrality measures above are seen in the plots.
 
 add your interpretation here (THEN DELETE THIS STATEMENT)
 

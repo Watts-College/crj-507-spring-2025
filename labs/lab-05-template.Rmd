@@ -39,7 +39,7 @@ rm( list = ls() )
 
 <br>
 
-### Part I
+## Part I
 
 <br>
 
@@ -66,7 +66,7 @@ PaulRevereNet
 
 <br>
 
-#### 1. Plot the network using the `gplot()` function.  
+### 1. Plot the network using the `gplot()` function.  
 
 <br>
 
@@ -78,7 +78,7 @@ PaulRevereNet
 
 <br>
 
-#### 2. Calculate the density of the network.
+### 2. Calculate the density of the network.
 
 <br>
 
@@ -90,13 +90,13 @@ PaulRevereNet
 
 <br>
 
-#### 3. Interpret the density of the network.
+### 3. Interpret the density of the network.
 
 *add your interpretation here (THEN DELETE THIS STATEMENT)*
 
 <br>
 
-#### 4. Calculate the degree centrality scores for each set of nodes.  
+### 4. Calculate the degree centrality scores for each set of nodes.  
 
 ```{r}
 
@@ -106,7 +106,7 @@ PaulRevereNet
 
 <br>
 
-#### 5. Calculate the mean degree centrality scores and interpret the values.  
+### 5. Calculate the mean degree centrality scores and interpret the values.  
 
 ```{r}
 
@@ -120,7 +120,7 @@ PaulRevereNet
 
 <br>
 
-#### 6. Calculate the standardized degree centrality scores for each set of nodes.  
+### 6. Calculate the standardized degree centrality scores for each set of nodes.  
 
 ```{r}
 
@@ -130,7 +130,7 @@ PaulRevereNet
 
 <br>
 
-#### 7. Calculate the mean standardized degree centrality score.  
+### 7. Calculate the mean standardized degree centrality score.  
 
 ```{r}
 
@@ -140,7 +140,7 @@ PaulRevereNet
 
 <br>
 
-#### 8. Plot the network using the standardized degree centrality scores.
+### 8. Plot the network using the standardized degree centrality scores.
 
 ```{r}
 
@@ -150,7 +150,7 @@ PaulRevereNet
 
 <br>
 
-#### 9. Using the vertex attribute `people.names`, discuss which individual is most central in the network.
+### 9. Using the vertex attribute `people.names`, discuss which individual is most central in the network.
 
 ```{r}
 
@@ -160,7 +160,7 @@ PaulRevereNet
 
 <br>
 
-#### 10. Using the vertex attribute `place.names`, discuss which location is most central in the network.
+### 10. Using the vertex attribute `place.names`, discuss which location is most central in the network.
 
 ```{r}
 
@@ -173,7 +173,7 @@ PaulRevereNet
 
 ----
 
-### Part II
+## Part II
 
 <br>
 
@@ -199,7 +199,7 @@ PhilKidnapNet
 
 <br>
 
-#### 1. Plot the network using the `gplot()` function.  
+### 1. Plot the network using the `gplot()` function.  
 
 <br>
 
@@ -211,7 +211,7 @@ PhilKidnapNet
 
 <br>
 
-#### 2. Calculate the density of the network.
+### 2. Calculate the density of the network.
 
 <br>
 
@@ -223,13 +223,13 @@ PhilKidnapNet
 
 <br>
 
-#### 3. Interpret the density of the network.
+### 3. Interpret the density of the network.
 
 *add your interpretation here (THEN DELETE THIS STATEMENT)*
 
 <br>
 
-#### 4. Calculate the degree centrality scores for each set of nodes.  
+### 4. Calculate the degree centrality scores for each set of nodes.  
 
 ```{r}
 
@@ -239,7 +239,7 @@ PhilKidnapNet
 
 <br>
 
-#### 5. Calculate the mean degree centrality scores and interpret the values.  
+### 5. Calculate the mean degree centrality scores and interpret the values.  
 
 ```{r}
 
@@ -253,7 +253,7 @@ PhilKidnapNet
 
 <br>
 
-#### 6. Calculate the standardized degree centrality scores for each set of nodes.  
+### 6. Calculate the standardized degree centrality scores for each set of nodes.  
 
 ```{r}
 
@@ -263,7 +263,7 @@ PhilKidnapNet
 
 <br>
 
-#### 7. Calculate the mean standardized degree centrality score.  
+### 7. Calculate the mean standardized degree centrality score.  
 
 ```{r}
 
@@ -273,7 +273,7 @@ PhilKidnapNet
 
 <br>
 
-#### 8. Plot the network using the standardized degree centrality scores.
+### 8. Plot the network using the standardized degree centrality scores.
 
 ```{r}
 
@@ -283,7 +283,7 @@ PhilKidnapNet
 
 <br>
 
-#### 9 & 10. Using the vertex attribute `vertex.names`, discuss which individual and which event are the most central in the network.
+### 9 & 10. Using the vertex attribute `vertex.names`, discuss which individual and which event are the most central in the network.
 
 ```{r}
 
