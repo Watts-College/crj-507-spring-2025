@@ -12,13 +12,6 @@ output:
     self_contained: true
 ---
 
-
-<style>
-body {
-text-align: left}
-</style>
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set( echo = TRUE )
 ```
@@ -31,14 +24,14 @@ The final project will use all of the information you have learned in this cours
 
 ## Data
 
-Both networks are stored as .rds files in the data folder on the [SNA Textbook](https://github.com/jacobtnyoung/sna-textbook/tree/main/data) site. As before, use the `readRDS()` function, to load the file. Be sure to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the objects as being of class `network`.
+Both networks are stored as .rds files in the data folder for the [Social Network Analysis for Crime Analysts using R](https://github.com/jacobtnyoung/snaca-r/tree/main/data) textbook. As before, use the `readRDS()` function, to load the file. Be sure to make sure the `sna` and `network` packages are loaded, using `library()`, so that R recognizes the objects as being of class `network`.
 
 Use the following code to load the 2023 network:
 
 ```{r, echo=TRUE, eval=FALSE}
 
 # set the url
-loc <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-PHX-arrest-2023-net.rds"
+loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-PHX-arrest-2023-net.rds"
 
 # for the 2023
 PhxArrestNet2023 <- readRDS( url( loc ) )
@@ -52,7 +45,7 @@ Use the following code to load the 2022 network:
 ```{r, echo=TRUE, eval=FALSE}
 
 # set the url
-loc <- "https://github.com/jacobtnyoung/sna-textbook/raw/main/data/data-PHX-arrest-2022-net.rds"
+loc <- "https://github.com/jacobtnyoung/snaca-r/raw/main/data/data-PHX-arrest-2022-net.rds"
 
 # for the 2022
 PhxArrestNet2022 <- readRDS( url( loc ) )
@@ -141,7 +134,7 @@ See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for
 
 <br>
 
-##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-template/issues) page. Thanks!
+##### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2025/issues/new) page. Thanks!
 
 <br>
 <br>
