@@ -8,7 +8,6 @@ author:
 calendly:  'https://calendly.com/jacobtnyoung/crj-507-student-meeting'
 
 
-
 # COURSE INFO:
 
 description:        Intro. course in social network analysis
@@ -42,7 +41,6 @@ header:
   url: help/
 
 
-
 # GITHUB CONFIGURATIONS
 
 url :               "https://watts-college.github.io"
@@ -59,10 +57,8 @@ github_info:
 
 # IGNORE THESE SETTINGS
 
-
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink:          /:title/
-
 
 # Social icons displayed in footer
 social:
@@ -82,7 +78,6 @@ social:
 
 # Twitter share button
 twitter_username:
-
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
