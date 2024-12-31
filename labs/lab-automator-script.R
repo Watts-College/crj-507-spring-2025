@@ -16,11 +16,12 @@ render( here( "labs/lab-06-instructions.Rmd" ), "html_document" )
 render( here( "labs/final-project-instructions.Rmd" ), "html_document" )
 
 
-# create the templates
-#render( here( "labs/lab-02-template.Rmd" ), "html_document" )
-#render( here( "labs/lab-03-template.Rmd" ), "html_document" )
-#render( here( "labs/lab-04-template.Rmd" ), "html_document" )
-#render( here( "labs/lab-05-template.Rmd" ), "html_document" )
-#render( here( "labs/lab-06-template.Rmd" ), "html_document" )
-#render( here( "labs/final-project-template.Rmd" ), "html_document" )
+# create the templates 
+# the reason here is to make sure they work before you convert them to zips
+render( here( "labs/lab-02-template.Rmd" ), "html_document" )
+render( here( "labs/lab-03-template.Rmd" ), "html_document" )
+render( here( "labs/lab-04-template.Rmd" ), "html_document" )
+render( here( "labs/lab-05-template.Rmd" ), "html_document" )
+render( here( "labs/lab-06-template.Rmd" ), "html_document" )
+render( here( "labs/final-project-template.Rmd" ), "html_document" )
 
