@@ -274,7 +274,7 @@ When you have completed your homework, click the "Knit" button to render your `.
 
 ### Special Instructions
 
-Upload both your `.RMD` and `.HTML` files to the appropriate assignment on the Canvas page for this course. Just click the "Start Assignment" button to upload the files. This assignment is *DUE* on **2/21**.
+Upload both your `.RMD` and `.HTML` files to the appropriate link for this assignment on the Canvas page for this course.
 
 <br>
 
