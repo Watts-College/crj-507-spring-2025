@@ -28,8 +28,10 @@ header:
   url:
 - title: Course Schedule
   url: schedule/
-- title: Textbook
+- title: Textbook Chapters
   url: https://jacobtnyoung.github.io/snaca-textbook/
+- title: Textbook Tutorials
+  url: https://jacobtnyoung.github.io/snaca-r/
 - title: Resources
   url: resources/
 - title: Yellowdig
