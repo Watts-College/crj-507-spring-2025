@@ -231,6 +231,10 @@ body {
    font-family: "Roboto", sans-serif;
 }
 
+p {
+  text-align: justify;
+}
+
 p.italic {
   font-style: italic;
   color: black !important;
