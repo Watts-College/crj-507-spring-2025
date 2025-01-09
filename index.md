@@ -79,7 +79,7 @@ Students will demonstrate competency in understanding, producing, and communicat
 
 Assigned work, including the final course project as well as regular, active participation in online discussion sessions (a critical part of the course learning strategy) are the tools the instructor will use to measure comprehension and skill. The course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflecting outstanding performance.  
 
-**Note:** Students should be aware that merely completing assigned work in no way guarantees an outstanding grade in the course. To receive an outstanding course grade (using the grading scheme described below and the performance assessment approach noted above), all assigned work should completed on time with careful attention to assignment details.
+**Note:** Students should be aware that merely completing assigned work in no way guarantees an outstanding grade in the course. To receive an outstanding course grade (using the grading scheme described below and the performance assessment approach noted above), all assigned work should be completed on time with careful attention to assignment details.
 
 # III. Course Structure, Operations, & Expectations
 
@@ -107,7 +107,7 @@ You will be much better off spending a small amount of time each day on the mate
 
 ### Discussion
 
-Online discussion boards are design for students to engage with the material together. The purpose of online discussion sessions is threefold: (1) the online discussion sessions allow students to interact with their peers and share ideas and interpretations of the assigned material, (2) such peer-to-peer discussion online helps build professional relationships with potential future colleagues in the field, and (3) the discussions permit the instructor to assess student engagement with the assigned material.
+Online discussion boards are designed for students to engage with the material together. The purpose of online discussion sessions is threefold: (1) the online discussion sessions allow students to interact with their peers and share ideas and interpretations of the assigned material, (2) such peer-to-peer discussion online helps build professional relationships with potential future colleagues in the field, and (3) the discussions permit the instructor to assess student engagement with the assigned material.
 
 The online discussions are explicitly intended to meet the objectives stated above. They are not intended as another form of readings or tutorial where the instructor provides commentary and students simply react. Rather, the discussions are a chance for peer-to-peer interaction and proactive engagement by each individual student.
 
@@ -219,7 +219,7 @@ Any content for the syllabus required by the university, but not included here, 
 
 As students are all aware, ASU Online courses are typically offered on a seven and a half week schedule. A schedule for each week of the term is outlined in the Course Schedule. The course is divided into seven units with specific learning objectives for each unit.
 
-**Note:** The course instructor may from time to time adjust assigned readings or adjust the due dates for assignment. The basic course content approach and learning objectives will not change, but slight modifications are possible if circumstances warrant an adjustment.
+**Note:** The course instructor may from time to time adjust assigned readings or adjust the due dates for assignments. The basic course content approach and learning objectives will not change, but slight modifications are possible if circumstances warrant an adjustment.
 
 Visit the [**Course Schedule**](https://watts-college.github.io/crj-507-spring-2025/schedule/).
 

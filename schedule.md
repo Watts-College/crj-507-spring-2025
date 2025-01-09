@@ -76,7 +76,7 @@ In this course we cover the foundations of social network analysis and show how 
 
 ## R Markdown
 
-You will get plenty of practice with these tools and submit your labs as knitted R Markdown (`.RMD`) files. You can learn more about R Markdown here: [Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html). But to give you a glimps, you can view R Markdown in action in the below image:
+You will get plenty of practice with these tools and submit your labs as knitted R Markdown (`.RMD`) files. You can learn more about R Markdown here: [Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html). But to give you a glimpse, you can view R Markdown in action in the below image:
 
 <br>
 
