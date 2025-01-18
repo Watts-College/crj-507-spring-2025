@@ -181,7 +181,7 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 **Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [**Canvas shell**](https://canvas.asu.edu/courses/204183).
 
-Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-spring-2025/help/) page on this site, schedule individual office hours using the [Calendly link](https://calendly.com/jacobtnyoung/crj-507-student-meeting), and [email me](mailto:CRJ507@asu.com) directly instead of using the Canvas system.
+Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-spring-2025/help/) page on this site, schedule individual office hours using the [Calendly link](https://calendly.com/jacobtnyoung/crj-507-student-meeting), and [email me](mailto:CRJ507@asu.edu) directly instead of using the Canvas system.
 
 Be aware that I will attempt to respond to any course-related email as quickly as possible. I ask that you allow between 24 and 48 hours as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
 
