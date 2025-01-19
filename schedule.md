@@ -475,7 +475,7 @@ This lab you will provide you the opportunity to start thinking about networks a
 
 ## Description
 
-This section will focus on how we represent network data as matrices. We will also cover some basics of how to describe a network. Finally, We will also examine how we can create networks in R as well has how we visualize networks. 
+This section will focus on how we represent network data as matrices. We will also cover some basics of how to describe a network. Finally, we will also examine how we can create networks in R as well has how we visualize networks. 
 
 ## Learning Objectives
 
