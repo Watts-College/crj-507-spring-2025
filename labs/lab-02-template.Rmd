@@ -97,7 +97,7 @@ net_d
 
 <br>
 
-Finally, let's plot the networks using the `gplot()` function. Note that we can use either the object `mat_d` which is of class `matrix` or the object `net_u` which is of class `network`.
+Finally, let's plot the networks using the `gplot()` function. Note that we can use either the object `mat_d` which is of class `matrix` or the object `net_d` which is of class `network`.
 
 ```{r create-undirected-plot, echo = TRUE, eval = TRUE}
 
@@ -132,7 +132,7 @@ gplot(
 
 <br>
 
-These were some examples to help you get going. Feel free to use them to aid in working through the lab.
+These were some examples to help you get going. Feel free to use them to aid in working through the lab. But, I encourage you to take the time to tinker with the different options in the `gplot()` function.
 
 ```{r clear-workspace, echo = TRUE, eval = TRUE}
 
