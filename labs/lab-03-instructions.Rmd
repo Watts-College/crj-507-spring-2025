@@ -55,7 +55,7 @@ For the `CocaineDealingNet` network, do the following:
 4. Calculate the mean indegree and mean outdegree centrality scores.  
 5. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
 6. Calculate the graph centralization for indegree and outdegree centrality.  
-7. Interpret each graph centralization score and comapre them. Is one larger than the other? What does this mean?  
+7. Interpret each graph centralization score and compare them. Is one larger than the other? What does this mean?  
 
 <br>
 

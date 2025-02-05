@@ -142,7 +142,7 @@ gplot(
 
 ### 6. Interpret the graph centralization score. What does it tell us about the distribution of degree centrality scores in the network?   
 
-add your interpretation here (THEN DELETE THIS STATEMENT)
+*add your comparison here (THEN DELETE THIS STATEMENT)*
 
 <br>
 <br>
@@ -214,11 +214,7 @@ CocaineDealingNet
 
 ### 5. Interpret each mean centrality score and compare them. Is one larger than the other? What does this mean?
 
-```{r}
-
-# Your code here
-
-```
+*add your comparison here (THEN DELETE THIS STATEMENT)*
 
 <br>
 
@@ -232,7 +228,7 @@ CocaineDealingNet
 
 <br>
 
-### 7. Interpret each graph centralization score and comapre them. Is one larger than the other? What does this mean?
+### 7. Interpret each graph centralization score and compare them. Is one larger than the other? What does this mean?
 
 *add your comparison here (THEN DELETE THIS STATEMENT)*
 
