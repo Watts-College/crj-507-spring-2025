@@ -32,6 +32,8 @@ The first network is constructed from data recorded in [Paul Revere's Ride](http
 
 The second network is the Philippine Kidnappings Data which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. In particular, this data is related to the Salast movement that has been founded by Aburajak Janjalani, a native terrorist of the Southern Philippines in 1991. ASG is active in kidnapping and other kinds of terrorist attacks. The object is a two-mode network, with 246 kidnappers and the 105 terrorist events they attended. We will refer to this as the `PhilKidnapNet` network.
 
+Remember, to coerce either `network` object to be an object of class `matrix`, use the `as.matrix()` function.
+
 <br>
 
 ## Part I: A Conspiracy Network
